@@ -16,11 +16,13 @@ ul {
 
 ul.navList {
     text-align: center;
+    padding: 14px;
 }
 
 nav li {
     display: inline-block;
-    margin: 0 6%;
+    margin: 0 7%;
+    font-size: 14pt;
 }
 
 a {
@@ -37,11 +39,11 @@ h1 {
     background-image: url(../images/blog_header_bg.jpg);
     background-size: 100% 100%;
     text-align: center;
-    font-size: 30pt;
-    padding: 180px 0 70px 0;
-    letter-spacing: 6px;
     margin: 0;
     color: white;
+    font-size: 36pt;
+    padding: 288px 0 177px 0;
+    letter-spacing: 18px;
 }
 
 h2 {
@@ -49,7 +51,8 @@ h2 {
 }
 
 h3 {
-    font-size: 20pt;
+    font-size: 23pt;
+    margin: 34px 0 71px 0;
 }
 
 p {
@@ -71,25 +74,25 @@ ul.recentIssues {
 footer {
     background: #cdf3f6;
     text-align: center;
-    height: 275px;
+    height: 408px;
 }
 
 form {
     text-transform: uppercase;
-    padding-bottom: 60px;
     border-bottom: solid 2px;
-    margin-bottom: 25px;
+    padding: 73px 0 83px 0px;
 }
 
 input {
-    width: 23%;
-    padding: 7px 10px;
-    margin-right: 19px;
+    padding: 16px 123px;
+    margin-right: 27px;
+    margin-left: -38px;
     text-align: center;
     border: none;
     font-family: raleway;
     color: #435963;
     font-weight: bold;
+    font-size: 13pt;
 }
 
 button {
@@ -98,34 +101,42 @@ button {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     color: #435963;
-    padding: 4px 20px;
+    padding: 14px 50px;
+    font-size: 13pt;
+    margin-left: 2%;
 }
 
 ul.social {
-    font-size: 20pt;
+    font-size: 29pt;
     margin: 0;
+    padding-top: 70px;
+    padding-left: 0px;
 }
 
 .social li {
     display: inline-block;
-    margin: 54px 17px;
+    margin: 0 25px;
 }
 
 .flex-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-}
-
-.flex-item {
-    margin: 0 3%;
+    margin-top: 78px;
 }
 
 .flex-item.right {
-    width: 30%;
-    margin-top: 5%;
+    width: 366px;
+    margin-top: 65px;
+    margin-left: 109px;
 }
 
 .flex-item.left {
-    width: 72%;
+    width: 959px;
+    margin-left: 87px;
+}
+
+.copy {
+    margin-top: 32px;
+    font-size: 14pt;
 }
