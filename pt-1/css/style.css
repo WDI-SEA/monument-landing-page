@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    color: #455;
+    font-family: "Open Sans", sans-serif;
+}
+
+header nav a {
+    color: #7b98aa;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+}
+
+footer nav a {
+    color: inherit;
+}
+
+footer {
+    background-color: #cdf3f6;
+}
+
+h1,
+h2,
+h3,
+nav a {
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 0;
+}
+
+h1 {
+    letter-spacing: .75em;
+    font-size: 3em;
+}
+
+section {
+    text-align: left;
+    width: 900px;
+    margin: 0 auto;
+}
+
+article img {
+    width: 900px;
+}
+
+.issues .issue {
+    color: #7b98aa;
+}
