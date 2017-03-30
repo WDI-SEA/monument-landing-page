@@ -1,0 +1,138 @@
+body {
+    text-align: center;
+    color: #455;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+header nav {
+    position: fixed;
+    background-color: #FFF;
+    width: 100%;
+}
+
+header nav a {
+    color: #7b98aa;
+    margin: 0 4em;
+}
+
+nav li:hover {
+    background-color: #455;
+}
+
+nav li:hover a {
+    color: #FFFFFF;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+nav a {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0;
+}
+
+.header-image {
+    background-image: url("../starter-code/images/blog_header_bg.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    height: 300px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+h1 {
+    letter-spacing: .5em;
+    font-size: 2em;
+}
+
+h2,
+h3 {
+    margin: 0.5em 0;
+}
+
+main {
+    margin: 50px 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#blog {
+    margin-bottom: 3em;
+    max-width: 500px;
+    margin: 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+article {
+    border-bottom: 1px dashed #7b98aa;
+}
+
+article img {
+    max-width: 100%;
+}
+
+aside {
+    max-width: 200px;
+}
+
+#about img {
+    max-width: 200px;
+}
+
+#issues .issue {
+    color: #7b98aa;
+    font-size: 0.9em;
+}
+
+footer p {
+    border-top: solid 3px #40505a;
+    padding-top: 10px;
+}
+
+footer li {
+    margin: 0 10px;
+}
+
+footer nav a {
+    color: inherit;
+}
+
+footer nav {
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #cdf3f6;
+    height: 200px;
+}
