@@ -3,28 +3,28 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Monument</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="navList caps">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">blog</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-        </nav>
-        <h1 class="caps">Monument</h1>
-    </header>
+    <nav class="headNav">
+        <ul class="navList caps flex-container">
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+    <i class="fa fa-bars" aria-hidden="true"></i>
+    <h1 class="caps">Monument</h1>
     <main class="flex-container main">
         <section class="flex-item left">
-            <article>
+            <article id="blog">
                 <h2 class="caps">11/23/2016</h2>
                 <h3 class="caps">A Visual guide to the southwest</h3>
                 <img src="images/blog_1.jpg" alt="blog_1">
@@ -34,7 +34,7 @@
             </article>
         </section>
         <section class="flex-item right">
-            <article>
+            <article id="about">
                 <h2 class="caps">About us</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
@@ -42,7 +42,8 @@
                 </p>
                 <img src="images/about.jpg" id="aboutImg" alt="about">
             </article>
-            <article>
+            <br>
+            <div>
                 <h2 class="caps">Recent Issues</h2>
                 <ul class="recentIssues">
                     <li><a href="#">Issue Nineteen - Camping</a></li>
@@ -52,21 +53,18 @@
                     <li><a href="#">Issue Fifteen - Carnivals</a></li>
                     <li><a href="#">Issue Fourteen -Gatherings</a></li>
                 </ul>
-            </article>
+            </div>
         </section>
     </main>
-    <section class="commentForm">
+    <br>
+    <section id="contact" class="commentForm">
         <h2 class="caps">leave a comment</h2>
         <div class="flex-container commentDiv">
-            <form class="commentForm">
-                <input type="text" name="name" value="NAME">
-                <input type="text" name="email" value="EMAIL">
-                <div>
-                    <textarea id="commentBox">COMMENT</textarea>
-                </div>
-                <button class="submit">SUBMIT</button>
-            </form>
+            <input type="text" name="name" id="name" value="NAME">
+            <input type="text" name="email" id="email" value="EMAIL">
         </div>
+        <textarea id="commentBox">COMMENT</textarea>
+        <button class="submit">SUBMIT</button>
     </section>
     <footer>
         <ul "social" class="caps social">
@@ -74,11 +72,11 @@
             <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
             <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
         </ul>
-        <form class="touchForm">
+        <form class="touchForm flex-container">
             <input type="text" name="email" value="EMAIL ADDRESS">
             <button class="touchButton">KEEP IN TOUCH</button>
         </form>
-        <div class="copy">&copy; 2016 Sarah Holden</div>
+        <div class="copy">&copy; 2017 Mark Goldstein</div>
     </footer>
 </body>
 

@@ -14,9 +14,17 @@ ul {
     list-style: none;
 }
 
+nav.headNav {
+    position: sticky;
+    z-index: 100000000;
+    background: white;
+    top: 0;
+}
+
 ul.navList {
     text-align: center;
-    padding: 14px;
+    padding: 30px;
+    margin: 0;
 }
 
 nav li {
@@ -37,12 +45,13 @@ ul.social li a {
 h1 {
     background: black;
     background-image: url(../images/blog_header_bg.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     text-align: center;
     margin: 0;
     color: white;
     font-size: 36pt;
-    padding: 288px 0 177px 0;
+    padding: 15% 0 8% 0;
     letter-spacing: 18px;
 }
 
@@ -57,6 +66,7 @@ h3 {
 
 p {
     font-size: 11pt;
+    font-family: 'Lato', sans-serif;
 }
 
 img {
@@ -68,19 +78,20 @@ img {
 }
 
 ul.recentIssues {
-    list-style: disc
+    list-style: disc;
+    font-family: 'Lato', sans-serif;
 }
 
 footer {
     background: #cdf3f6;
     text-align: center;
-    height: 408px;
 }
 
 form.touchForm {
     text-transform: uppercase;
     border-bottom: solid 2px;
     padding: 73px 0 83px 0px;
+    justify-content: center;
 }
 
 input,
@@ -93,8 +104,8 @@ input,
 
 form.touchForm input {
     padding: 16px 123px;
-    margin-right: 27px;
-    margin-left: -38px;
+    /*margin-right: 27px;
+    margin-left: -38px;*/
     text-align: center;
     border: none;
 }
@@ -137,8 +148,7 @@ main {
 
 .flex-item.right {
     width: 366px;
-    margin-top: 65px;
-    margin-left: 109px;
+    margin: 65px 10px 0 97px;
 }
 
 .flex-item.left {
@@ -147,8 +157,9 @@ main {
 }
 
 .copy {
-    margin-top: 32px;
+    margin-top: 2%;
     font-size: 14pt;
+    font-family: 'Lato', sans-serif;
 }
 
 .commentForm {
@@ -157,20 +168,83 @@ main {
     margin: auto;
 }
 
-.commentForm input {
-    border: solid 2px;
+.commentDiv {
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-.commentDiv {
-    justify-content: center;
+.commentDiv input {
+    border: solid 2px;
+    width: 48%;
+    margin: 1% 0px;
+    padding: 8px 7px;
 }
 
 #commentBox {
     resize: vertical;
     border: solid 2px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .submit {
     background: white;
     width: 100%;
+    height: 39px;
+    margin: 13px 0;
+}
+
+button:hover {
+    background: lightgrey;
+    transition: .3s background;
+}
+
+.fa-bars {
+    float: left;
+    font-size: 25pt !important;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    display: none !important;
+}
+
+@media screen and (max-width: 560px) {
+    .headNav {
+        display: none;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .flex-item.left {
+        width: 100%;
+    }
+    section {
+        width: 90% !important;
+        margin: 0 auto !important;
+    }
+    h1 {
+        letter-spacing: 1px;
+        padding: 43% 0 25% 0;
+    }
+    img {
+        width: 100%;
+    }
+    button.touchButton {
+        margin: auto;
+        width: 80%;
+        margin-top: 2px;
+    }
+    form.touchForm input {
+        margin: auto;
+        width: 80%;
+        padding: 16px 0;
+        margin-bottom: 5px;
+    }
+    .commentDiv input {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+    i.fa-bars {
+        display: inline-block !important;
+    }
 }
