@@ -1,0 +1,42 @@
+body {
+    color: black;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+article p {
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+}
+
+nav {
+    color: gray;
+    text-align: center;
+}
+
+footer {
+    background-color: lightblue;
+}
+
+ul {
+    color: lightblue;
+}
+
+header nav a {
+    padding: 10px;
+    margin: 25px;
+}
+
+article nav a {
+    color: lightblue;
+}
+
+div section nav a {
+    background-color: lightblue;
+}
