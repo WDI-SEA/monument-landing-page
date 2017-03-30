@@ -1,5 +1,11 @@
 * {
-    font-family: Verdana, sans-serif;
+    font-family: Raleway, sans-serif;
+}
+
+page {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h2,
@@ -28,6 +34,7 @@ nav {
     text-transform: uppercase;
     font-weight: 800;
     margin-bottom: 50px;
+    background-color: white;
 }
 
 a {

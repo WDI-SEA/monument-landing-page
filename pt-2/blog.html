@@ -4,7 +4,7 @@
 <head>
     <script src="https://use.fontawesome.com/0044452a4c.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,800,900" rel="stylesheet">
     <title>Monument</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,9 +17,11 @@
             <a href="#">Blog</a>
             <a href="#">Contact</a>
         </nav>
-        <h1>Monument</h1>
+        <div class="headerimage">
+            <h1>Monument</h1>
+        </div>
     </header>
-    <page>
+    <section class="page">
         <blog>
             <article>
                 <h3>11/23/2016</h3>
@@ -51,14 +53,20 @@
                 </ul>
             </section>
         </section>
-    </page>
+    </section>
     <footer>
         <nav class="social">
             <i class="fa fa-facebook-square"></i>
             <i class="fa fa-twitter-square"></i>
             <i class="fa fa-instagram"></i>
         </nav>
-        <p>&#169; 2016 Sarah Holden</p>
+        <section class="email">
+            <form>
+                <input type="email" name="email" placeholder="Email Address">
+            </form>
+            <button>Keep In Touch</button>
+        </section>
+        <p class="copyright">&#169; 2016 Sarah Holden</p>
     </footer>
     <script src="js/main.js"></script>
 </body>
