@@ -148,12 +148,16 @@ main {
 
 .flex-item.right {
     width: 366px;
+    width: 29%;
     margin: 65px 10px 0 97px;
+    margin-left: 8%;
 }
 
 .flex-item.left {
     width: 959px;
+    width: 60%;
     margin-left: 87px;
+    margin-left: 7%;
 }
 
 .copy {
