@@ -1,0 +1,253 @@
+* {
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/*Main=====================
+=========================*/
+
+#main {
+    margin: 0 3em;
+    display: flex;
+}
+
+article {
+    width: 60%;
+    margin-right: 10%;
+}
+
+aside {
+    width: 30%
+}
+
+#headerNav {
+    margin: 6em 0;
+}
+
+header nav a {
+    height: 8em;
+    font-weight: 900;
+    text-decoration: none;
+    color: #849FB0;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: .2em;
+    padding: 5em 6em;
+    margin: 0 5em;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 8em;
+    letter-spacing: .5em;
+    padding: 6em 0;
+    background-image: url(starter-code/images/blog_header_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    color: #44545E;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+
+h4 {
+    color: #44545E;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #44545E;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+p {
+    color: #717D85;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: Lato, sans-serif;
+}
+
+#header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#main {
+    margin: 0 5%;
+}
+
+.wide-pic {
+    width: 100%;
+}
+
+li a {
+    color: #849FB0;
+    font: Lato;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+#backIssues {
+    line-height: 200%;
+}
+
+
+/*Get in Touch============
+=========================*/
+
+
+/*_Having a hard time w/ individual form elements._*/
+
+.getInTouch {
+    width: 100%;
+    margin: 2em auto 4em;
+}
+
+.getInTouch h2 {
+    margin: .5em auto;
+    font-size: 1.5em;
+    align-content: center;
+}
+
+#commentForm {
+    width: 70%;
+    margin: 0em auto;
+    justify-content: space-between;
+}
+
+.getHL {
+    width: 100%;
+    margin: .5em 0;
+    padding: 1em 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+.col-1-3 {
+    width: 28%;
+    margin-bottom: 1em;
+    padding: 1em 1em;
+    border: .2em solid #717D85;
+}
+
+.col-3-3 {
+    width: 100%;
+    margin-bottom: 1em;
+    background-color: #fff;
+    padding: 1em 1em;
+    border: .2em solid #717D85;
+}
+
+
+/*Footer===================
+=========================*/
+
+footer {
+    /*text-align: center;*/
+    background-color: #CDF3F6;
+}
+
+.footSocial nav {
+    font-size: 1.2em;
+    padding-top: 1em;
+    color: #44545E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footSocial nav a {
+    color: #44545E;
+    font-size: 3em;
+    padding: 0 .5em;
+    margin: 2%;
+}
+
+.footForm {
+    display: flex;
+    margin: 0em 5em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footForm input {
+    margin: 1em;
+}
+
+#footEMAIL {
+    background-color: #fff;
+    padding: 1em 3em;
+    border-color: #fff;
+    text-align: center;
+    border-style: none;
+}
+
+#footKeepButton {
+    background-color: #CDF3F6;
+    padding: 1em 2em;
+    border: .2em solid #717D85;
+    /*border-style: none;*/
+}
+
+.footAuthor {
+    height: 4em;
+    border-top: solid 0.2em #849fb0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#commentForm {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*=============================================
+============================================*/
+
+
+/*_Why isn't this working?_
+@media only screen and (max-width:632px)*/
+
+
+/*@media (max-width: 500px) {
+    aside {
+        display: none;
+    }
+    body {
+        background-color: yellow;
+    }
+}
+*/
+
+@media (max-width: 400px) {
+    * {
+        font-family: Raleway, sans-serif;
+        font-size: 100px;
+    }
+}
