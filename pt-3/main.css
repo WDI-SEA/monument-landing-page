@@ -1,6 +1,6 @@
 nav {
     position: sticky;
-    top: 10px;
+    top: 0;
     text-align: center;
     margin: 25px 0 25px 0;
     padding: 5px 0 5px 0;
@@ -8,6 +8,14 @@ nav {
     background-color: white;
     width: 100%;
     font-size: 1.25vw;
+}
+
+textarea {
+    width: 50%;
+}
+
+.comment-area {
+    text-align: center;
 }
 
 .header-image {
@@ -30,8 +38,8 @@ nav {
     padding: 0px 40px 0px 40px;
 }
 
-.comment-header {
-    text-align: center;
+.column {
+    flex-direction: column;
 }
 
 nav a {
@@ -83,9 +91,42 @@ li a {
     font-weight: bold;
 }
 
+div textarea {
+    border: 1px solid black;
+    width: 88.5%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-border {
+    border: 2px solid black;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.input-size {
+    width: 43%;
+    height: 50px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 2px;
+}
+
 .links {
     padding-bottom: 100px;
     word-spacing: 2em;
+}
+
+.submit {
+    width: 89.5%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 1px;
+    background-color: white;
+    border: 1px solid black;
 }
 
 footer {
@@ -112,8 +153,12 @@ input[type=email] {
     margin-bottom: 40px;
 }
 
-@media (min-width: 800px) {
-    h1 {
-        color: blue;
+@media (max-width: 800px) {
+    .flex-container {
+        display: inline-block;
+        width: 100%;
+    }
+    .flex-item1 {
+        width: 70%;
     }
 }
