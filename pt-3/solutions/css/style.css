@@ -23,6 +23,7 @@ nav.headNav {
 
 ul.navList {
     text-align: center;
+    justify-content: center;
     padding: 30px;
     margin: 0;
 }
