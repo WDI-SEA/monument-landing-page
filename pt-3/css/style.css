@@ -103,9 +103,18 @@ footer nav a {
 
 footer nav {
     height: 6.25em;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -190,11 +199,16 @@ aside {
 
 #contact {
     width: 80%;
-    margin: 1.5625em;
+    margin: 1.5625em auto;
 }
 
 #contact form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -208,8 +222,15 @@ textarea {
 }
 
 .name-email {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -220,6 +241,13 @@ textarea {
 
 textarea {
     height: 6.25em;
+}
+
+
+/*I tried putting padding directly on the textarea selector and not using an id to select it, not sure why it didn't work on textarea??*/
+
+#comment {
+    padding: 1em;
 }
 
 
@@ -259,7 +287,13 @@ h3 {
 
 @media (max-width: 560px) {
     .container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
         align-items: center;
     }
     header nav ul {
@@ -279,9 +313,15 @@ h3 {
         padding-top: 1em;
     }
     .name-email {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
     .name-email input {
         width: 100%;
+    }
+    aside {
+        display: none;
     }
 }
