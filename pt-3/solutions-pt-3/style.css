@@ -287,4 +287,7 @@ form {
     #wrapper {
         padding-bottom: 8em;
     }
+    .aside {
+        flex-direction: column;
+    }
 }
