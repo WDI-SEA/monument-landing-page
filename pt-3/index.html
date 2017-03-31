@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Monument-Landing</title>
-    <link rel="stylesheet" type="text/css" href="ML2.css">
-    <link rel="stylesheet" href="pt-2/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="pt-3/css/font-awesome.css">
 </head>
 
 <body>
-    <header class="stickybar">
-        <a href="#about">ABOUT</a>
-        <a href="#gallery">GALERY</a>
-        <a href="#blog">BLOG</a>
-        <a href="#contact">CONTACT</a>
+    <header class="navbar">
+        <div id=navtabs>
+            <a href="#about">ABOUT</a>
+            <a href="#gallery">GALERY</a>
+            <a href="#blog">BLOG</a>
+            <a href="#contact">CONTACT</a>
+        </div>
     </header>
     <h1>MONUMENT</h1>
-    <div id="h1bacgroundimage">
+    <div id="bacgroundimage">
         <img src="images/blog_header_bg.jpg" alt="">
     </div>
     <Section>
@@ -47,19 +49,43 @@
         </aside>
         <!--    </span> -->
     </section>
+    <form method="GET" action="/page">
+        <div class="row">
+            <h1>LEAVE A COMMENT</h1>
+        </div>
+        <div id="form-field" class="row">
+            <div class=" column column-5 ">
+                <input type="form-field " placeholder="NAME ">
+            </div>
+            <div class="column column-5 ">
+                <input type="email " placeholder="EMAIL ">
+            </div>
+            <div class="column column-12 " id="textarea-wrapper ">
+                <textarea type="textarea " value="create " placeholder="COMMENT "> </textarea>
+            </div>
+            <div class="column column-12 ">
+                <input type="Submit " value="create " placeholder="SUBMIT ">
+            </div>
+            <script src="js/main.js "></script>
+        </div>
+    </form>
     <footer>
-        <table>
-            <tr>
-                <td class="button">
-                    <a href="#">keep in touch</a>
-                </td>
-            </tr>
-        </table>
-        <a href="<i class=" fa fa-facebook-official " aria-hidden="true "></i>Facebook</a>;
-        <a href="<i class=" fa fa-twitter " aria-hidden="true "></i>Twitter</a>;
-        <a href="<i class=" fa fa-instagram " aria-hidden="true "></i>Instagram</a>;
-        <p id=copyright>© 2016 Sarah Holden</p>
-
+        <Form method="GET " action="/page ">
+            <div class="row " ; <div class="column column-4 ">
+                <input type="email " value="create " placeholder="keep in touch " </div>
+                <div class="column column=" button ">
+            <a href="# ">keep in touch</a>
+        </div>
+    </Form>
+    <a href="# " <i class=" fa fa-facebook-official " aria-hidden="true " </a>
+        <a href="# " <i class=" fa fa-twitter " aria-hidden="true "></i>
+        </a>
+        <a href="<i class=" fa fa-instagram " aria-hidden="true ">
+                    </i>
+                    </a>
+                    <div id=copyright>
+                        <p>© 2016 Sarah Holden</p>
+                    </div>
     </footer>
 </body>
 
