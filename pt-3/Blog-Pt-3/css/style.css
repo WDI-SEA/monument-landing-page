@@ -1,3 +1,7 @@
+html {
+    margin: 0 auto;
+}
+
 body {
     color: #476B63;
     font-family: 'Lato', sans-serif;
@@ -27,7 +31,8 @@ ul {
 }
 
 header nav a {
-    margin: 45px;
+    /* margin: 45px;
+*/
     color: gray;
 }
 
@@ -58,7 +63,7 @@ h1 {
     flex-direction: row;
 }
 
-.item1 {
+.journal {
     width: 80%;
     order: 1;
 }
@@ -71,4 +76,8 @@ h1 {
 .copyright {
     border-top: solid 2px gray;
     padding: 2em;
+}
+
+.leave {
+    text-align: center;
 }
