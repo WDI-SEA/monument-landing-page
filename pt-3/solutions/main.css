@@ -1,10 +1,10 @@
 * {
     font-family: 'Raleway', sans-serif;
-    design: flex;
+    /*design: flex;*/
 }
 
 .blog-header {
-    background-image: url("starter-code/images/blog_header_bg.jpg");
+    background-image: url("images/blog_header_bg.jpg");
     height: 300px;
     width: 100%;
     background-repeat: no-repeat;
@@ -123,6 +123,15 @@ p {
     font-size: 60px;
 }
 
+.comment {
+    margin: 20px;
+    text-align: center;
+    padding: 20px, 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
 footer {
     text-align: center;
     text-transform: uppercase;
@@ -133,18 +142,19 @@ footer {
     justify-content: center;
 }
 
+.NE {
+    align-items: right;
+}
+
 .bottomnav {
     bottom-border: black solid;
 }
 
-
-/*.clearfix:before {
-    visibility: hidden;
-    display: block;
-    content: " ";
-    clear: both;
-    height: 0;
-    font-size: 0;*/
+#button:hover {
+    background-color: purple;
+    font-size: 15px;
+    border-style: : 9;
+}
 
 .fa {
     text-align: center;
