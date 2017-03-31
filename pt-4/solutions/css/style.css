@@ -1,0 +1,400 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #44545e;
+    margin: 0;
+}
+
+.caps {
+    text-transform: uppercase;
+    font-weight: bolder
+}
+
+ul {
+    list-style: none;
+}
+
+nav.headNav {
+    position: sticky;
+    z-index: 100000000;
+    background: white;
+    top: 0;
+}
+
+ul.navList {
+    justify-content: center;
+    padding: 30px;
+    margin: 0;
+    transition: all .5s;
+}
+
+nav li,
+.navLi {
+    display: inline-block;
+    margin: 0 7%;
+    font-size: 14pt;
+    transition: all .5s;
+}
+
+a {
+    text-decoration: none;
+    color: #7b98aa;
+}
+
+ul.social li a {
+    color: #435963;
+}
+
+h1 {
+    background: black;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 36pt;
+    letter-spacing: 18px;
+}
+
+.blogH1 {
+    padding: 15% 0 8% 0;
+    background-image: url(../images/blog_header_bg.jpg);
+}
+
+.landH1 {
+    background-image: url(../images/home_header_bg.jpg);
+    padding: 18% 0;
+    background-attachment: fixed;
+}
+
+.landH1 span {
+    display: block;
+    font-size: 20pt;
+    letter-spacing: normal;
+    margin-top: 2%;
+}
+
+h2 {
+    font-size: 17pt;
+}
+
+h3 {
+    font-size: 23pt;
+    margin: 34px 0 71px 0;
+}
+
+p {
+    font-size: 11pt;
+    font-family: 'Lato', sans-serif;
+}
+
+.issues {
+    text-align: center;
+    width: 30%;
+}
+
+.aboutMag {
+    background-color: #cff2f6;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.margin {
+    margin: 0 auto;
+}
+
+.aboutMag p {
+    width: 70%;
+    font-size: 15pt;
+}
+
+img {
+    width: 100%;
+}
+
+#aboutImg {
+    width: 100%;
+}
+
+ul.recentIssues {
+    list-style: disc
+}
+
+footer {
+    background: #cdf3f6;
+    text-align: center;
+}
+
+form.touchForm {
+    text-transform: uppercase;
+    border-bottom: solid 2px;
+    padding: 73px 0 83px 0px;
+    justify-content: center;
+}
+
+input,
+#commentBox {
+    font-size: 13pt;
+    font-family: raleway;
+    font-weight: bold;
+    color: #435963;
+}
+
+form.touchForm input {
+    padding: 16px 123px;
+    /*margin-right: 27px;
+    margin-left: -38px;*/
+    text-align: center;
+    border: none;
+}
+
+button,
+.submit,
+.readMore {
+    border: solid 2px #435963;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #435963;
+    font-size: 13pt;
+}
+
+.readMore {
+    padding: 7px 24px;
+    font-size: 11pt;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+    width: 90px;
+}
+
+button.touchButton {
+    background: #cdf3f6;
+    padding: 14px 50px;
+    margin-left: 2%;
+}
+
+ul.social {
+    font-size: 29pt;
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 0px;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+main {
+    margin-top: 78px;
+}
+
+.archive,
+.aboutMag,
+.gallery {
+    margin-bottom: 70px;
+}
+
+.aboutMag {
+    padding: 160px 0;
+}
+
+.aboutMag h3,
+.gallery h3 {
+    margin: 0;
+}
+
+.aboutMag h2,
+.gallery h2 {
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+
+.gallery h3,
+h2 {
+    width: 100%;
+}
+
+.flex-item.right {
+    /*width: 366px;*/
+    width: 29%;
+    margin: 65px 10px 0 97px;
+    margin-left: 8%;
+}
+
+.flex-item.left {
+    /*width: 959px;*/
+    width: 60%;
+    /*margin-left: 87px;*/
+    margin-left: 7%;
+}
+
+.articlesDiv {
+    justify-content: space-around;
+}
+
+.galleryDiv {
+    justify-content: center;
+    padding: 0 6%;
+}
+
+.galleryImage {
+    width: 30%;
+}
+
+.galleryImage img {
+    margin-bottom: 20px;
+}
+
+.galleryImage img:hover {
+    opacity: .7;
+}
+
+.copy {
+    margin-top: 2%;
+    font-size: 14pt;
+}
+
+.commentForm {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.commentDiv {
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.commentDiv input {
+    border: solid 2px;
+    width: 48%;
+    margin: 1% 0px;
+    padding: 8px 7px;
+}
+
+#commentBox {
+    resize: vertical;
+    border: solid 2px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.submit {
+    background: white;
+    width: 100%;
+    height: 39px;
+    margin: 13px 0;
+}
+
+.submit:hover,
+button:hover,
+.readMore:hover {
+    background: lightgrey;
+    transition: .3s background;
+}
+
+.fa-bars {
+    float: left;
+    font-size: 25pt !important;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    display: none !important;
+}
+
+@media (min-width: 561px) and (max-width: 800px) {
+    .articlesDiv,
+    .commentDiv,
+    .touchForm {
+        flex-direction: column;
+    }
+    .landH1 {
+        padding: 52% 0;
+    }
+    .archive article {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .archive img {
+        width: 50%;
+    }
+    button.touchButton {
+        margin: auto;
+        width: 80%;
+        margin-top: 2px;
+    }
+    form.touchForm input {
+        margin: auto;
+        width: 80%;
+        padding: 16px 0;
+        margin-bottom: 5px;
+    }
+    .commentDiv input {
+        width: 97%;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 560px) {
+    .headNav {
+        display: none;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .flex-item.left,
+    .flex-item.right {
+        width: 90%;
+    }
+    .archive article {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .aboutMag p {
+        font-size: 1em;
+    }
+    .galleryImage {
+        width: 90%;
+    }
+    h1.blogH1 {
+        letter-spacing: 1px;
+        padding: 43% 0 25% 0;
+    }
+    h1.landH1 {
+        letter-spacing: 1px;
+        padding: 78% 0;
+    }
+    img {
+        width: 100%;
+    }
+    button.touchButton {
+        margin: auto;
+        width: 80%;
+        margin-top: 2px;
+    }
+    form.touchForm input {
+        margin: auto;
+        width: 80%;
+        padding: 16px 0;
+        margin-bottom: 5px;
+    }
+    .commentDiv input {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+    i.fa-bars {
+        display: inline-block !important;
+    }
+}
