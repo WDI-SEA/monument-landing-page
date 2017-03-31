@@ -5,10 +5,11 @@ body {
 .titleimage {
     display: flex;
     justify-content: center;
+    align-content: space-between;
     padding-top: 10em;
     background-image: url(../images/blog_header_bg.jpg);
     background-size: cover;
-    height: 325px;
+    background height: 325px;
     color: #FFFFFF;
 }
 
@@ -21,8 +22,8 @@ body {
 
 main {
     display: flex;
-    justify-content: space-around;
-    align-content: space-around;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 h1,
