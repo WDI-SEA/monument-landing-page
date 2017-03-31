@@ -1,0 +1,201 @@
+* {
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/*Main=====================
+=========================*/
+
+#main {
+    margin: 0 3em;
+    display: flex;
+}
+
+article {
+    width: 60%;
+    margin-right: 10%;
+}
+
+aside {
+    width: 30%
+}
+
+#headerNav {
+    margin: 6em 0;
+}
+
+header nav a {
+    height: 8em;
+    font-weight: 900;
+    text-decoration: none;
+    color: #849FB0;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: .2em;
+    padding: 5em 6em;
+    margin: 0 5em;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 8em;
+    letter-spacing: .5em;
+    padding: 6em 0;
+    background-image: url(starter-code/images/blog_header_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    color: #44545E;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+h4 {
+    color: #44545E;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #44545E;
+    font-size: 1.5em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+p {
+    color: #717D85;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: Lato, sans-serif;
+}
+
+#header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#main {
+    margin: 0 5%;
+}
+
+.wide-pic {
+    width: 100%;
+}
+
+li a {
+    color: #849FB0;
+    font: Lato;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+#backIssues {
+    line-height: 200%;
+}
+
+
+/*LeaveComment+============
+=========================*/
+
+
+/*_Having a hard time w/ individual form elements._*/
+
+.leaveComment {
+    display: flex;
+}
+
+.leaveComment h2 {
+    margin: .5em auto;
+}
+
+
+/*Footer===================
+=========================*/
+
+footer {
+    /*text-align: center;*/
+    background-color: #CDF3F6;
+}
+
+.footSocial nav {
+    font-size: 1.5em;
+    padding-top: 1em;
+    color: #44545E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footSocial nav a {
+    color: #44545E;
+    font-size: 3em;
+    padding: 0 .5em;
+    margin: 2%;
+}
+
+.footForm {
+    display: flex;
+    margin: 2em 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footForm input {
+    margin: 0 1em;
+}
+
+#footEMAIL {
+    background-color: #fff;
+    padding: .2em 3em;
+    border-color: #fff;
+    text-align: center;
+    border-style: none;
+}
+
+#footKeepButton {
+    background-color: #CDF3F6;
+    padding: .2em 2em;
+    border: .2em solid #717D85;
+    /*border-style: none;*/
+}
+
+.footAuthor {
+    height: 4em;
+    border-top: solid 0.2em #849fb0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*=============================================
+============================================*/
+
+
+/*_Why isn't this working?_*/
+
+@media (max-width: 500px) {
+    aside {
+        display: none;
+    }
+}
