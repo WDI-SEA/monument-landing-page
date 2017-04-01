@@ -1,0 +1,444 @@
+* {
+    font-family: Raleway, sans-serif;
+}
+
+
+/* ===================
+        HEADER
+=================== */
+
+header {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headernav {
+    z-index: 10;
+    top: 0;
+}
+
+.headernav ul {
+    z-index: 10;
+    top: 0;
+    margin-top: 0;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    list-style-position: text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 3em;
+    width: 100%;
+    background-color: white;
+    padding-top: 1.5em;
+    padding-left: 0;
+    margin-left: 0;
+    position: fixed;
+}
+
+.headernav ul a {
+    color: #8DA6B6;
+    letter-spacing: .1em;
+    font-size: 1em;
+}
+
+.headernav ul a:hover {
+    color: #4CA1AE;
+}
+
+.hamburger {
+    display: none;
+}
+
+.headerimage {
+    background-image: url("../images/blog_header_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.landingimage {
+    background-image: url("../images/home_header_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.mountains {
+    position: relative;
+}
+
+.cacti {
+    position: rel
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #44545E;
+    font-size: 2em;
+    letter-spacing: .5em;
+    align-self: center;
+    padding: auto;
+    color: #FFF;
+    font-weight: 400;
+}
+
+h5 {
+    color: white;
+    position: ab solute;
+    align-self: center;
+    display: flex;
+    margin-top: 4em;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    letter-spacing: .05em;
+    font-weight: 400;
+}
+
+
+/* ===================
+   BLOG AND SIDEBAR
+=================== */
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.blog {
+    max-width: 60%;
+}
+
+.sidebar {
+    max-width: 30%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    color: #44545E;
+    font-weight: 600;
+    letter-spacing: .05em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4CA1AE;
+}
+
+article {
+    margin-left: 6%;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: Lato, sans-serif;
+    color: #2f4f4f;
+    font-weight: 300;
+    line-height: 1.3em;
+}
+
+
+/* ===================
+     RECENT ISSUES
+=================== */
+
+.sidebar ul {
+    margin-left: -1.3em;
+}
+
+li a {
+    color: #8DA6B6;
+    line-height: 2em;
+    font-size: .9em;
+}
+
+
+/* ===================
+     COMMENT FORM
+=================== */
+
+.comment-title {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.comment-form {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5em;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column-2 {
+    border: .2em solid black;
+    width: 47.75%;
+}
+
+.formblank {
+    width: 100%;
+    border: .25em solid black;
+    background: transparent;
+}
+
+.blank {
+    text-transform: uppercase;
+    padding: .6em;
+    font-weight: 800;
+    margin-bottom: 1%;
+}
+
+#formbutton {
+    border: .25em solid black;
+    background-color: transparent;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-transform: uppercase;
+    color: grey;
+    font-size: .7em;
+    font-weight: 800;
+    letter-spacing: .1em;
+    width: 100%;
+}
+
+#formbutton:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* ===================
+        FOOTER
+=================== */
+
+footer {
+    text-align: center;
+    background-color: #CDF3F6;
+    height: 15em;
+    font-size: 16px;
+    color: #50626C;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social {
+    color: #44545E;
+    font-size: 2em;
+    letter-spacing: .5em;
+    background-color: inherit;
+    width: 100%;
+    padding-top: 1em;
+}
+
+.fa:hover {
+    color: white;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#emailaddress {
+    text-transform: uppercase;
+    background-color: white;
+    width: 30em;
+    font-weight: 800;
+    border: none;
+    height: 3em;
+    margin-left: 1em;
+    text-align: center;
+    color: #8DA6B6;
+    letter-spacing: .1em;
+    font-size: .7em;
+}
+
+.button {
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    font-size: .7em;
+    text-align: center;
+    vertical-align: center;
+    background-color: inherit;
+    border: .2em solid #44545E;
+    margin-left: 1em;
+    font-weight: 800;
+    color: #44545E;
+    padding: .8em;
+    letter-spacing: .1em;
+}
+
+.button:hover {
+    background: white;
+    color: #8DA6B6;
+}
+
+.copyright {
+    border-top: .2em solid #44545E;
+    width: 100%;
+    padding-top: .8em;
+}
+
+
+/* ===================
+      MEDIA QUERY
+=================== */
+
+@media only screen and (max-width: 560px) {
+    .headernav {
+        display: flex;
+        align-items: flex-start;
+        padding-left: 10%;
+        background: transparent;
+    }
+    .headernav ul {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        color: white;
+        font-size: 30px;
+        margin-bottom: -2em;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: -.5em;
+    }
+    .headerimage {
+        margin-top: 0;
+    }
+    .mountains {
+        top: 0;
+    }
+    .page {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+    .blog {
+        max-width: 100%;
+        margin: 0;
+    }
+    article {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+    .sidebar {
+        display: none;
+    }
+    .column-2 {
+        width: 96%;
+        margin-top: .6em;
+    }
+    #button {
+        margin-top: .5em;
+        width: 30em;
+    }
+}
+
+
+/* ===================
+    LANDING PAGE
+=================== */
+
+.archive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#archive_title {
+    text-align: center;
+}
+
+.southwest {
+    max-width: 30%;
+}
+
+.camping {
+    max-width: 30%;
+}
+
+.food {
+    max-width: 30%;
+}
+
+.read_more:hover {
+    background-color: #CDF3F6;
+    color: #44545E;
+}
+
+.about {
+    background-color: #CDF3F6;
+    color: black;
+    text-align: center;
+    margin-top: 8em;
+    padding: 9em;
+}
+
+.current {
+    text-align: center;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galleryimg1,
+.galleryimg2,
+.galleryimg3 {
+    max-width: 32%;
+}
+
+.galleryimg {
+    margin-bottom: .5em;
+}
