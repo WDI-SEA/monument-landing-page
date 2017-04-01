@@ -13,10 +13,13 @@
 <body>
     <header>
         <nav class="sitenav">
-            <a href="#about">ABOUT</a>
-            <a href="index.html/gallery">GALLERY</a>
-            <a href="#">BLOG</a>
-            <a href="#">CONTACT</a>
+            <a class="hamburger" href "#"><i class="fa fa-bars"></i></a>
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="index.html/#gallery">GALLERY</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
         </nav>
         <div class="blogtitleimage">
             <h1>MONUMENT</h1>
@@ -66,20 +69,6 @@
             <textarea id="comments" class="col-3-3" name="comments" cols="100" rows="10" placeholder="COMMENTS"></textarea>
             <input type="submit" class="col-3-3" value="SUBMIT">
         </form>
-        <!--         <form>
-            <div>
-                <div class="flexwrap">
-                    <div class="row-1">
-                        <input id="name" type="text" name="name" placeholder="NAME">
-                        <input id="email" type="email" name="email" placeholder="EMAIL">
-                    </div>
-                    <div class="row-2">
-                        <textarea id="comments" name="comments" cols="100" rows="10" placeholder="COMMENTS"></textarea>
-                        <input type="submit" value="SUBMIT">
-                    </div>
-                </div>
-            </div>
-        </form> -->
     </div>
     <footer>
         <div class="smedia"> <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
@@ -89,7 +78,7 @@
                 <input id="submit" type="submit" value="KEEP IN TOUCH">
             </form>
         </div>
-        <p class="copyright "> &copy;2016 Steve Keiser </p>
+        <p class="copyright"> &copy;2016 Steve Keiser </p>
     </footer>
 </body>
 
