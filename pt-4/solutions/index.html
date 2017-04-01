@@ -104,9 +104,10 @@
     <br>
     <section id="contact" class="commentForm">
         <h2 class="caps">Get in touch</h2>
-        <div class="flex-container commentDiv">
+        <div class="flex-container commentDiv commentIndex">
             <input type="text" name="name" id="name" placeholder="NAME">
             <input type="text" name="email" id="email" placeholder="EMAIL">
+            <input type="text" name="subject" id="subject" placeholder="SUBJECT">
         </div>
         <textarea rows="5" id="commentBox" placeholder="MESSAGE"></textarea>
         <input class="submit" type="submit" name="submit" value="SUBMIT">
@@ -115,7 +116,12 @@
         <ul class="caps social">
             <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li>
+                <a href="#" class="instaLink">
+                    <img id="insta" src="images/insta.png" alt="">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
         </ul>
         <form class="touchForm flex-container">
             <input type="text" name="email" placeholder="EMAIL ADDRESS">

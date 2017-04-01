@@ -272,6 +272,7 @@ h2 {
     text-align: center;
     width: 90%;
     margin: auto;
+    margin-bottom: 45px;
 }
 
 .commentDiv {
@@ -282,6 +283,13 @@ h2 {
 .commentDiv input {
     border: solid 2px;
     width: 48%;
+    margin: 1% 0px;
+    padding: 8px 7px;
+}
+
+.commentIndex input {
+    border: solid 2px;
+    width: 30%;
     margin: 1% 0px;
     padding: 8px 7px;
 }
@@ -320,23 +328,62 @@ button:hover,
     position: absolute;
     width: 50px;
     height: 50px;
+    z-index: 1000;
 }
 
 .hiddenNav {
-    opacity: 0;
+    left: -1000px;
     position: absolute;
-    top: 47px;
-    left: 9px;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 0 0 5px 0;
+    transition: left .2s
 }
 
 .hiddenNav li {
-    margin-bottom: 15px;
+    margin: 15px 0;
+    text-align: center;
+    padding: 7px 54px;
+}
+
+.hiddenNav ul {
+    padding: 30px 80px;
+}
+
+#burger:hover i {
+    color: #435963;
 }
 
 #burger:hover + .hiddenNav {
+    left: 0;
+}
+
+.fa-facebook-square:hover {
+    color: #3c5a99;
+}
+
+.fa-twitter-square:hover {
+    color: #1da1f2;
+}
+
+.instaLink {
+    position: relative;
+}
+
+#insta {
+    height: 48px;
+    width: 47px;
+    position: absolute;
+    left: -7px;
+    top: -2px;
+    opacity: 0;
+}
+
+.instaLink:hover #insta {
     opacity: 1;
+}
+
+.instaLink:hover .fa-instagram {
+    opacity: 0;
 }
 
 @media (min-width: 561px) and (max-width: 800px) {
@@ -373,7 +420,7 @@ button:hover,
     }
 }
 
-@media (max-width: 560px) {
+@media screen and (max-width: 560px) {
     .headNav {
         display: none;
     }
