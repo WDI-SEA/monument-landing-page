@@ -380,13 +380,6 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    /*  .galleryimg,
-  .galleryimg,
-  .galleryimg {
-      max-width: 48%;
-      min-width: 48%;
-  }
-*/
     .galleryimg1,
     .galleryimg2,
     .galleryimg3 {
@@ -418,6 +411,36 @@ footer {
     }
     .blank {
         margin-bottom: 1%;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    .archive {
+        max-width: 100%;
+        margin: 0;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .southwest,
+    .camping,
+    .food {
+        min-width: 750px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .about p,
+    .about h3,
+    .about h4 {
+        margin-left: -7em;
+        margin-right: -7em;
+    }
+    .column-2 {
+        width: 100%;
+    }
+    .blank {
+        margin-bottom: 1%;
+        width: 100%;
     }
 }
 
