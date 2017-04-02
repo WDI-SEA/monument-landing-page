@@ -7,6 +7,7 @@ body {
     font-weight: 400;
     margin: 0;
     overflow-x: hidden;
+    font-size: 16px;
 }
 
 
@@ -36,7 +37,7 @@ body {
 
 #home-header {
     background-image: url("../starter-code/images/home_header_bg.jpg");
-    height: 31.25rem;
+    height: 31.25em;
     background-attachment: fixed;
 }
 
@@ -80,15 +81,16 @@ header nav li {
 /*All navigation*/
 
 nav li,
-#submit-email,
-#submit-contact,
+.submit-button,
 .read-more {
     transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
 }
 
 .hidden,
 header nav ul {
     transition: opacity 1s ease;
+    -webkit-transition: all 0.5s ease-in;
 }
 
 nav li:hover,
@@ -120,13 +122,14 @@ nav ul {
 /*Footer*/
 
 footer > p {
-    border-top: solid 1px #40505a;
+    border-top: solid 2px #40505a;
     padding-top: 0.625em;
 }
 
 footer li {
     margin: 0 0.625em;
     padding: 0.3125em;
+    border-radius: 5px;
 }
 
 footer nav a {
@@ -150,37 +153,32 @@ footer nav {
     align-items: center;
 }
 
-input {
+footer input {
     text-align: center;
     margin: 0 0.625em;
 }
 
-#input-email,
-#home-input-email {
+.footer-email {
     border: 0;
     width: 15em;
     padding: 0.625em 1.25em;
 }
 
-#submit-email,
-#home-submit-email {
+footer .submit-button {
     background-color: #cdf3f6;
     border: solid 2px #40505a;
     padding: 0.625em;
     width: 10em;
 }
 
-#submit-email:hover,
-#submit-contact:hover,
-#home-submit-email:hover,
-#home-submit-contact:hover {
+.submit-button:hover {
     background-color: #455;
     color: #FFFFFF;
 }
 
 footer {
     background-color: #cdf3f6;
-    height: 15em;
+    height: 12em;
 }
 
 
@@ -191,7 +189,7 @@ main {
 }
 
 section {
-    margin-top: 6.25em;
+    margin-top: 3em;
 }
 
 article img {
@@ -199,11 +197,58 @@ article img {
 }
 
 
+/*Form stuff for the bottom of both*/
+
+.flex-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 80%;
+    margin: 0.625em auto;
+}
+
+.flex-form input,
+textarea {
+    margin: 0.625em 0;
+    box-sizing: border-box;
+    background-color: #FFF;
+    border: 2px solid black;
+    padding: 0.75em;
+}
+
+.input-33 {
+    width: 32%;
+    box-sizing: border-box;
+}
+
+.input-50 {
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.input-100 {
+    width: 100%;
+}
+
+textarea {
+    height: 6.25em;
+}
+
+
 /*Home specific content*/
 
 .archive-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin-top: 2em;
 }
@@ -211,7 +256,7 @@ article img {
 .archive-container article {
     width: 33.3%;
     box-sizing: border-box;
-    padding: 0 2rem;
+    padding: 0 2em;
 }
 
 .read-more {
@@ -228,17 +273,24 @@ article img {
 
 #home-about {
     background-color: #cdf3f6;
-    padding: 5rem;
+    padding: 5em;
 }
 
 #home-about p:nth-child(3) {
-    margin-top: 2rem;
+    margin-top: 2em;
 }
 
 .gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -ms-flex-line-pack: justify;
     align-content: space-between;
     padding: 1em;
 }
@@ -251,8 +303,6 @@ article img {
 .gallery img {
     max-width: 100%;
     margin-top: 1em;
-    /*max-width: 20%;
-    height: auto;*/
 }
 
 
@@ -294,71 +344,6 @@ aside {
     font-size: 0.9em;
 }
 
-#blog-comment {
-    width: 80%;
-    margin: 1.5625em auto;
-}
-
-.flex-form {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-between;
-}
-
-.flex-form input,
-textarea {
-    margin: 0.625em 0;
-    box-sizing: border-box;
-    background-color: #FFF;
-    border: 2px solid black;
-    padding: 0.3125em;
-}
-
-#blog-comment-name,
-#blog-comment-email {
-    width: 45%;
-        box-sizing: border-box;
-
-}
-
-#blog-comment-text,
-#submit-comment {
-    width: 100%;
-}
-
-
-/*
-.name-email {                                   TESTING TO REMOVE THIS ELEMENT
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}*/
-
-.name-email input {
-    box-sizing: border-box;
-    width: 49%;
-}
-
-textarea {
-    height: 6.25em;
-}
-
-
-/*I tried putting padding directly on the textarea selector and not using an id to select it, not sure why it didn't work on textarea??*/
-
-#blog-comment-text {
-    padding: 1em;
-}
-
 
 /*Titles and etc*/
 
@@ -388,6 +373,38 @@ h3 {
         font-size: 0.8em;
         padding: 0px;
         margin: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .archive-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -ms-flex-direction: column;
+    }
+    .archive-container article {
+        width: 100%;
+        padding: 2em;
+    }
+    .input-33,
+    .input-50,
+    .footer-email,
+    footer .submit-button {
+        width: 100%;
+    }
+    .footer-email {
+        padding: 0.625em 0;
+    }
+    footer form {
+        width: 80%;
+        margin: 0 auto;
+    }
+    footer input {
+        margin: 1em auto;
+    }
+    footer {
+        height: 18em;
     }
 }
 
@@ -424,16 +441,14 @@ h3 {
     h3 {
         padding-top: 1em;
     }
-    .name-email {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-    .name-email input {
-        width: 100%;
-    }
     aside {
         display: none;
+    }
+    .gallery {
+        flex-direction: column;
+    }
+    .col {
+        width: 48%;
+        margin: 0;
     }
 }
