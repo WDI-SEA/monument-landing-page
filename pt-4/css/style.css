@@ -44,8 +44,10 @@ header {
     font-size: 1em;
 }
 
-.headernav ul a:hover {
-    color: #4CA1AE;
+.headernav li a:hover {
+    border-bottom: .3em solid #CDF3F6;
+    padding-bottom: .4em;
+    transition-duration: .1;
 }
 
 .hamburger {
@@ -77,28 +79,19 @@ header {
     margin-bottom: 5em;
 }
 
-.mountains {
-    position: relative;
-}
-
-.cacti {
-    position: rel
-}
-
 h1 {
     text-transform: uppercase;
     color: #44545E;
     font-size: 2em;
     letter-spacing: .5em;
     align-self: center;
-    padding: auto;
     color: #FFF;
     font-weight: 400;
 }
 
 h5 {
     color: white;
-    position: ab solute;
+    position: absolute;
     align-self: center;
     display: flex;
     margin-top: 4em;
@@ -147,6 +140,7 @@ a {
 
 a:hover {
     color: #4CA1AE;
+    transition-duration: .1;
 }
 
 article {
@@ -237,6 +231,7 @@ li a {
 #formbutton:hover {
     background-color: black;
     color: white;
+    transition-duration: .1;
 }
 
 
@@ -265,8 +260,14 @@ footer {
     padding-top: 1em;
 }
 
+.social a {
+    color: #44545E;
+}
+
 .fa:hover {
-    color: white;
+    color: black;
+    transform: scale(1.5, 1.5);
+    transition-duration: 1.5s;
 }
 
 .email {
@@ -342,14 +343,58 @@ footer {
     .headerimage {
         margin-top: 0;
     }
-    .mountains {
-        top: 0;
+    .landingimage {
+        margin-top: 0;
     }
     .page {
         max-width: 100%;
         margin-left: 0;
         margin-right: 0;
         padding: 0;
+    }
+    .archive {
+        max-width: 100%;
+        margin: 0;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .southwest,
+    .camping,
+    .food {
+        min-width: 385px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .about p,
+    .about h3,
+    .about h4 {
+        margin-left: -7em;
+        margin-right: -7em;
+    }
+    .gallery {
+        margin-left: 1%;
+        margin-right: 1%;
+        max-width: 90%;
+        min-width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /*  .galleryimg,
+  .galleryimg,
+  .galleryimg {
+      max-width: 48%;
+      min-width: 48%;
+  }
+*/
+    .galleryimg1,
+    .galleryimg2,
+    .galleryimg3 {
+        max-width: 100%;
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .blog {
         max-width: 100%;
@@ -366,11 +411,13 @@ footer {
     }
     .column-2 {
         width: 96%;
-        margin-top: .6em;
     }
-    #button {
+    .button {
         margin-top: .5em;
         width: 30em;
+    }
+    .blank {
+        margin-bottom: 1%;
     }
 }
 
@@ -385,20 +432,20 @@ footer {
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 #archive_title {
     text-align: center;
 }
 
-.southwest {
-    max-width: 30%;
+.archive img:hover {
+    filter: opacity(.5);
+    transition-duration: 1s;
 }
 
-.camping {
-    max-width: 30%;
-}
-
+.southwest,
+.camping,
 .food {
     max-width: 30%;
 }
@@ -406,6 +453,7 @@ footer {
 .read_more:hover {
     background-color: #CDF3F6;
     color: #44545E;
+    transition-duration: .1s;
 }
 
 .about {
@@ -441,4 +489,9 @@ footer {
 
 .galleryimg {
     margin-bottom: .5em;
+}
+
+.galleryimg:hover {
+    filter: opacity(.5);
+    transition-duration: 1s;
 }
