@@ -89,6 +89,7 @@ nav li,
 
 .hidden,
 header nav ul {
+    -webkit-transition: opacity 1s ease;
     transition: opacity 1s ease;
     -webkit-transition: all 0.5s ease-in;
 }
@@ -200,10 +201,19 @@ article img {
 /*Form stuff for the bottom of both*/
 
 .flex-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -ms-flex-line-pack: justify;
     align-content: space-between;
     width: 80%;
     margin: 0.625em auto;
@@ -281,17 +291,41 @@ textarea {
 }
 
 .gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
+    -ms-flex-line-pack: start;
     align-content: flex-start;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
 .gallery img {
     width: 30%;
     margin-top: 1em;
+    transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+    animation: trippy 3s infinite;
+}
+
+@keyframes trippy {
+    0% {
+        filter: hue-rotate(0deg) contrast(150%) saturate(200%) drop-shadow(3px 3px 8px silver);
+    }
+    100% {
+        filter: hue-rotate(360deg) contrast(150%) saturate(200%) drop-shadow(3px 3px 8px silver);
+    }
 }
 
 
@@ -302,6 +336,9 @@ textarea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     -ms-flex-pack: distribute;
     justify-content: space-around;
@@ -313,7 +350,6 @@ textarea {
 #blog {
     margin-bottom: 3em;
     max-width: 60%;
-    /*margin: 0 auto;*/
 }
 
 #blog article {
