@@ -48,6 +48,10 @@ a:hover {
     background-color: grey;
 }
 
+.smedia a:hover {
+    background-color: initial;
+}
+
 article {
     margin-right: 1em;
     padding-bottom: 2em;
@@ -164,6 +168,7 @@ footer {
 .copyright,
 .smedia {
     font-size: 75%;
+    padding-top: 1em;
     padding-bottom: 1em;
     margin: auto;
     display: inline-block;
@@ -173,6 +178,12 @@ i {
     margin-right: 1em;
     margin-left: 1em;
     transform: scale(2, 2);
+    transition: all 1s ease-in-out;
+}
+
+i:hover {
+    color: white;
+    transform: scale(2.25, 2.25);
 }
 
 .copyright {
@@ -245,6 +256,7 @@ INDEX ONLY
 #aboutco {
     text-align: center;
     background-color: #cdf3f6;
+    padding: 1em 5em 2em 5em;
 }
 
 #gallery {
@@ -361,7 +373,7 @@ MEDIA QUERY
     }
     .hamburger {
         display: block;
-        color: white;
+        color: lightgrey;
         font-size: 1em;
         position: absolute;
         top: 1em;
@@ -398,7 +410,7 @@ MEDIA QUERY
     }
     .hamburger {
         display: block;
-        color: white;
+        color: lightgrey;
         font-size: 1em;
         position: absolute;
         top: 1em;
@@ -415,63 +427,44 @@ MEDIA QUERY
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        align-items: space-between;
     }
     #i20fullflex img {
         margin: .5em;
     }
-/*    #column_1 {
-        order: 1;
-        flex-basis: 50%;
-    }
-    #column_2 {
-        order: 2;
-        flex-basis: 50%;
-        justify-content: space-around;
-        align-items: flex-start;
-    }
-    #column_3 {
-        order: 3;
-        flex-basis: 50%;
-        align-self: flex-start;
-    }*/
     #i20fullflex div {
         padding-bottom: 0;
     }
-        #gallery_1 {
-            order: 1;
-            align-self: flex-end;
-            flex-basis: 50%;
-        }
-        
-        #gallery_2 {
-            order: 5;
-            align-self: flex-end;
-            flex-basis: 50%;
-        }
-        
-        #gallery_3 {
-            order: 4;
-            align-self: flex-end;
-            flex-basis: 50%;
-        }
-        
-        #gallery_4 {
-            order: 3;
-            align-self: flex-start;
-            flex-basis: 50%;
-        }
-        
-        #gallery_5 {
-            order: 2;
-            align-self: flex-start;
-            flex-basis: 50%;
-        }
-        
-        #gallery_6 {
-            order: 6;
-            align-self: flex-start;
-            flex-basis: 50%;
-        }
-
+    #gallery_1 {
+        order: 1;
+        align-self: flex-end;
+        flex-basis: 50%;
+    }
+    #gallery_2 {
+        order: 5;
+        align-self: flex-end;
+        flex-basis: 50%;
+    }
+    #gallery_3 {
+        order: 4;
+        align-self: flex-end;
+        flex-basis: 50%;
+    }
+    #gallery_4 {
+        order: 3;
+        align-self: flex-start;
+        flex-basis: 50%;
+    }
+    #gallery_5 {
+        order: 2;
+        align-self: flex-start;
+        flex-basis: 50%;
+    }
+    #gallery_6 {
+        order: 6;
+        align-self: flex-start;
+        flex-basis: 50%;
+    }
+    .col-1-3 {
+        width: 100%;
+    }
 }
