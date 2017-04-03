@@ -63,6 +63,7 @@ h2 {
 
 h3 {
     font-size: 1em;
+    text-align: center;
 }
 
 p {
@@ -136,6 +137,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .wrap h2 {
@@ -160,7 +162,7 @@ img {
 #commentForm textarea,
 #commentForm button {
     margin: 0.63em;
-    background-color: transparent;
+    background-color: white;
     border: #44545E .2em solid;
     text-transform: uppercase;
     padding: 1.25em 0.63em;
@@ -177,7 +179,7 @@ img {
 #keep-in-touch button {
     padding: 0.94em 0;
     margin: 1.25em;
-    background-color: transparent;
+    background-color: white;
     border: #44545E .2em solid;
     text-transform: uppercase;
     text-align: center;
@@ -224,6 +226,23 @@ img {
     width: 30%;
 }
 
+a:hover {
+    background-color: yellow;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition: width 2s;
+}
+
+#commentForm button:hover {
+    background-color: blue;
+    transition: width 2s;
+}
+
+#keep-in-touch button:hover {
+    background-color: blue;
+    transition: width 3s;
+}
+
 
 /*************@media query***********************/
 
@@ -244,7 +263,13 @@ img {
 }
 
 #gallery {
-    height: 900px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 800px;
+    width: 80%;
+    margin: 0 10px 20px 10px;
 }
 
 
