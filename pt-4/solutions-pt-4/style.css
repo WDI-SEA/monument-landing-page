@@ -310,12 +310,6 @@ footer input {
     span.large {
         display: inline-block;
     }
-    form.short {
-        display: flex;
-    }
-    form.long {
-        display: none;
-    }
     .gallery-3 {
         display: flex;
     }
@@ -337,11 +331,8 @@ footer input {
     span.large {
         display: inline-block;
     }
-    form.short {
-        display: none;
-    }
-    form.long {
-        display: flex;
+    .column-1-3 {
+        width: 100%
     }
     .gallery-3 {
         display: flex;
@@ -367,11 +358,8 @@ footer input {
     span.large {
         display: inline-block;
     }
-    form.short {
-        display: none;
-    }
-    form.long {
-        display: flex;
+    .column-1-3 {
+        width: 100%
     }
     .gallery-3 {
         display: flex;
@@ -402,18 +390,18 @@ footer input {
     }
 }
 
-@media only screen and (max-width: 375px) {
+
+/*PHONES*/
+
+@media only screen and (max-width: 414px) {
     span.small {
         display: inline-block;
     }
     span.large {
         display: none;
     }
-    form.short {
-        display: none;
-    }
-    form.long {
-        display: flex;
+    .column-1-3 {
+        width: 100%
     }
     .gallery-3 {
         display: none;
