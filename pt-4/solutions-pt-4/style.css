@@ -65,7 +65,7 @@ button:hover {
 /*HEADER*/
 
 .header_image {
-    background-image: url(../starter-code/images/home_header_bg.jpg);
+    background-image: url(images/home_header_bg.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
