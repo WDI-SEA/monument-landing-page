@@ -67,16 +67,14 @@
         </section>
     </main>
     <br>
-    <section id="contact" class="commentForm">
+    <section id="contact" class="commentSection">
         <h2 class="caps">leave a comment</h2>
-        <div class="flex-container commentDiv">
-            <input type="text" name="name" id="name" placeholder="NAME">
-            <input type="text" name="email" id="email" placeholder="EMAIL">
-        </div>
-        <textarea rows="5" id="commentBox" placeholder="COMMENT"></textarea>
-        <!-- <button class="submit">SUBMIT</button>
- -->
-        <input class="submit" type="submit" name="submit" value="SUBMIT">
+        <form class="flex-container commentForm">
+            <input class="col-1-2" type="text" name="name" id="name" placeholder="NAME">
+            <input class="col-1-2" type="text" name="email" id="email" placeholder="EMAIL">
+            <textarea class="col-3-3" rows="5" id="commentBox" placeholder="COMMENT"></textarea>
+            <input class="submit col-3-3" type="submit" name="submit" value="SUBMIT">
+        </form>
     </section>
     <footer>
         <ul class="caps social">

@@ -268,28 +268,21 @@ h2 {
     font-size: 14pt;
 }
 
-.commentForm {
+.commentSection {
     text-align: center;
     width: 90%;
     margin: auto;
     margin-bottom: 45px;
 }
 
-.commentDiv {
+.commentForm {
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.commentDiv input {
+.commentForm input {
     border: solid 2px;
-    width: 48%;
-    margin: 1% 0px;
-    padding: 8px 7px;
-}
-
-.commentIndex input {
-    border: solid 2px;
-    width: 30%;
     margin: 1% 0px;
     padding: 8px 7px;
 }
@@ -303,9 +296,9 @@ h2 {
 
 .submit {
     background: white;
-    width: 100%;
     height: 39px;
     margin: 13px 0;
+    width: 100% !important;
 }
 
 .submit:hover,
@@ -313,6 +306,18 @@ button:hover,
 .readMore:hover {
     background: lightgrey;
     transition: .3s background;
+}
+
+.col-1-3 {
+    width: 30%;
+}
+
+.col-3-3 {
+    width: 100%;
+}
+
+.col-1-2 {
+    width: 48%;
 }
 
 .fa-bars {
@@ -388,7 +393,7 @@ button:hover,
 
 @media (min-width: 561px) and (max-width: 800px) {
     .articlesDiv,
-    .commentDiv,
+    .commentForm,
     .touchForm {
         flex-direction: column;
     }
@@ -414,7 +419,7 @@ button:hover,
         padding: 16px 0;
         margin-bottom: 5px;
     }
-    .commentDiv input {
+    .commentForm input {
         width: 97%;
         margin-bottom: 15px;
     }
@@ -464,7 +469,7 @@ button:hover,
         padding: 16px 0;
         margin-bottom: 5px;
     }
-    .commentDiv input {
+    .commentForm input {
         width: 95%;
         margin-bottom: 15px;
     }
