@@ -197,6 +197,20 @@ article img {
     max-width: 100%;
 }
 
+.col-33 {
+    width: 32%;
+    box-sizing: border-box;
+}
+
+.col-50 {
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.col-100 {
+    width: 100%;
+}
+
 
 /*Form stuff for the bottom of both*/
 
@@ -228,20 +242,6 @@ textarea {
     padding: 0.75em;
 }
 
-.input-33 {
-    width: 32%;
-    box-sizing: border-box;
-}
-
-.input-50 {
-    width: 49%;
-    box-sizing: border-box;
-}
-
-.input-100 {
-    width: 100%;
-}
-
 textarea {
     height: 6.25em;
 }
@@ -264,8 +264,6 @@ textarea {
 }
 
 .archive-container article {
-    width: 33.3%;
-    box-sizing: border-box;
     padding: 0 2em;
 }
 
@@ -312,18 +310,33 @@ textarea {
 .gallery img {
     width: 30%;
     margin-top: 1em;
+    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
 .gallery img:hover {
+    -webkit-animation: trippy 3s infinite;
     animation: trippy 3s infinite;
+}
+
+@-webkit-keyframes trippy {
+    0% {
+        -webkit-filter: hue-rotate(0deg) contrast(150%) saturate(200%) drop-shadow(3px 3px 8px silver);
+        filter: hue-rotate(0deg) contrast(150%) saturate(200%) drop-shadow(3px 3px 8px silver);
+    }
+    100% {
+        -webkit-filter: hue-rotate(360deg) contrast(150%) saturate(200%) drop-shadow(3px 3px 8px silver);
+        filter: hue-rotate(360deg) contrast(150%) saturate(200%) drop-shadow(3px 3px 8px silver);
+    }
 }
 
 @keyframes trippy {
     0% {
+        -webkit-filter: hue-rotate(0deg) contrast(150%) saturate(200%) drop-shadow(3px 3px 8px silver);
         filter: hue-rotate(0deg) contrast(150%) saturate(200%) drop-shadow(3px 3px 8px silver);
     }
     100% {
+        -webkit-filter: hue-rotate(360deg) contrast(150%) saturate(200%) drop-shadow(3px 3px 8px silver);
         filter: hue-rotate(360deg) contrast(150%) saturate(200%) drop-shadow(3px 3px 8px silver);
     }
 }
@@ -408,12 +421,12 @@ h3 {
         flex-direction: column;
         -ms-flex-direction: column;
     }
-    .archive-container article {
+    .archive-container .col-33 {
         width: 100%;
         padding: 2em;
     }
-    .input-33,
-    .input-50,
+    .col-33,
+    .col-50,
     .footer-email,
     footer .submit-button {
         width: 100%;
