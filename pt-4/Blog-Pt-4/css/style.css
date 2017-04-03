@@ -11,8 +11,17 @@ body {
 }
 
 h1 {
+    color: white;
+    letter-spacing: 23px;
+    font-size: 28px;
+    position: absolute;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    opacity: 0.8;
     text-align: center;
-    font-stretch: ultra-expanded;
+    letter-spacing: 30px;
     padding: 0 25px;
 }
 
@@ -27,12 +36,6 @@ nav {
     font-size: 10px;
 }
 
-footer {
-    background-color: lightblue;
-    height: 200px;
-    text-align: center;
-}
-
 ul {
     color: lightblue;
 }
@@ -42,6 +45,7 @@ header nav a {
     color: gray;
     padding: 30px 5px;
     text-decoration: none;
+    font-size: 15px;
 }
 
 img {
@@ -61,15 +65,6 @@ div section nav a {
     position: relative;
     background-size: cover;
     background-position: center;
-}
-
-h1 {
-    color: white;
-    letter-spacing: 23px;
-    justify-content: center;
-    position: absolute;
-    top: 200px;
-    width: 100%;
 }
 
 .container {
@@ -111,6 +106,9 @@ h1 {
     justify-content: center;
 }
 
+
+/* Forms*/
+
 .grid-wrapper {
     diplay: -webkit-box;
     display: -ms-flexbox;
@@ -138,4 +136,27 @@ h1 {
 
 .col-3-3 {
     width: 100%;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: lightblue;
+    height: 200px;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.email {
+    margin-top: 5px;
+}
+
+.clearfix nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
