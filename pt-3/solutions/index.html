@@ -2,24 +2,25 @@
 <html>
 
 <head>
-    <title>Joshua Tree</title>
+    <title>Monument_JH</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato|Raleway">
 </head>
 
 <body>
-    <header>
-        <nav id="topnav">
-            <a href="#about">About</a>
-            <a href="#Gallery">Gallery</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
     <main>
-        <div class="blog-header">
-            <h1>Joshua Tree</h1>
-        </div>
+        <header id="topnav">
+            <nav>
+                <a class="hamburger" href=""><i class="fa fa-bars"></i></a>
+                <a href="index.html#About">About</a>
+                <a href="#Gallery">Gallery</a>
+                <a href="blog.html">Blog</a>
+                <a href="index.html#Contact">Contact</a>
+            </nav>
+            <h1>Monument</h1>
+        </header>
         <div class="content">
             <div class="column col1">
                 <h2>11/23/2016</h2>
@@ -62,26 +63,21 @@
             </div>
         </div>
     </main>
-    <div>
-        <div class="comment">
-            <p>Leave A Comment</p>
-            <div class="NE">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-            </div>
-            <div>
-                <textarea placeholder="Comment"></textarea>
-            </div>
-            <div>
-                <input id="button" type="button" value="Keep In Touch">
-            </div>
-        </div>
+    <div class="form">
+        <h2>Get In Touch</h2>
+        <form id="commentForm">
+            <input class="col-1-3" type="text" placeholder="Name">
+            <input class="col-1-3" type="email" placeholder="Email">
+            <input class="col-1-3" type="text" placeholder="Subject">
+            <textarea class="col-3-3" cols="30" rows="10" placeholder="Comment"></textarea>
+            <button id="button" class="col-3-3" type="submit">Submit</button>
+        </form>
     </div>
-    <footer class="bottomnav">
-        <div>
-            <a href="#"><i class="fa fa-facebook-official" aria-hidden="true" ></i></a>
-            <a href="#"><i class="fa fa-twitter" aria-hidden="true" ></i></a>
-            <a href="#"><i class="fa fa-instagram" aria-hidden="true" ></i></a>
+    <footer>
+        <div class="bottomnav ">
+            <a href="# "><i class="fa fa-facebook-official " aria-hidden="true " ></i></a>
+            <a href="# "><i class="fa fa-twitter " aria-hidden="true " ></i></a>
+            <a href="# "><i class="fa fa-instagram " aria-hidden="true " ></i></a>
             <p>&copy; Sarah Holden</p>
         </div>
     </footer>

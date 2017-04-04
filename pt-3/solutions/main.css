@@ -1,55 +1,58 @@
-* {
+body {
     font-family: 'Raleway', sans-serif;
-    /*design: flex;*/
 }
 
-.blog-header {
+#topnav {
     background-image: url("images/blog_header_bg.jpg");
-    height: 300px;
+    height: 21.25em;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    padding-top: 30pt;
-}
-
-.blog-header h1 {
-    color: #FFF;
-    font-weight: 200;
-    font-size: 20pt;
-}
-
-.content {
+    background-size: 100% 90%;
+    /* 1st 100% is for length 2nd 100% width*/
+    padding-top: 1.875em;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+#topnav h1 {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 1.2em;
+    font-size: 3em;
 }
 
 .col1 {
     width: 70%;
     padding: 0 20pt;
-    /*display: inline-block;*/
 }
 
 .col2 {
     width: 30%;
     padding: 0 20pt;
-    /*display: inline-block;*/
-}
-
-main {
-    /*position: relative;*/
 }
 
 nav {
     text-align: center;
     text-decoration: none;
-    padding: 20px 0 0 20px;
+    padding: 20px 20px 0 20px;
     text-transform: uppercase;
     font-size: 11pt;
     height: 20px;
     position: fixed;
-    /*top: 0;*/
-    */ width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: rgba(231, 231, 231, 0.7);
     display: inline;
+}
+
+.hamburger {
+    display: none;
 }
 
 nav > a {
@@ -59,13 +62,9 @@ nav > a {
     font-size: 10pt;
 }
 
-.topnav {
-    display: flex;
-}
-
 body {
     margin: 0 auto;
-    padding: 50px 50pt;
+    padding: 0 50pt;
 }
 
 img {
@@ -107,6 +106,8 @@ h4 {
 p {
     color: #44545E;
     line-height: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .about {
@@ -120,40 +121,118 @@ p {
 }
 
 .facebook-official {
-    font-size: 60px;
+    font-size: 3.75em;
 }
 
-.comment {
-    margin: 20px;
+.form {
+    margin: 1.25em;
     text-align: center;
-    padding: 20px, 0;
+    padding: 0.8em 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-between;
+    border: solid #000;
+}
+
+.form h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
 }
 
 footer {
     text-align: center;
     text-transform: uppercase;
     background-color: #CDF3F6;
-    font-size: 14px;
+    font-size: 1.14em;
     letter-spacing: .08em;
     font-weight: 500;
     justify-content: center;
 }
 
 .NE {
-    align-items: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
 }
 
-.bottomnav {
-    bottom-border: black solid;
+.name {
+    width: 30%;
+    height: 2em;
+    border: solid #44545E;
+}
+
+.email {
+    width: 30%;
+    height: 2em;
+}
+
+.subject {
+    width: 30%;
+    height: 2em;
+}
+
+.comment {
+    /*align-items: right;*/
+    margin-bottom: 1em;
+}
+
+
+/*input#name {*/
+
+
+/*width: 45%;*/
+
+
+/*height: 2em;*/
+
+
+/*}*/
+
+
+/*input#email {*/
+
+
+/*width: 45%;*/
+
+
+/*height: 2em;*/
+
+
+/*}*/
+
+#commentForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#commentForm textarea {
+    margin: 10px;
+}
+
+.col-1-3 {
+    width: 30%;
+}
+
+.col-3-3 {
+    width: 100%;
+}
+
+textarea {
+    height: 12.5em;
+}
+
+input#button {
+    width: 100%;
 }
 
 #button:hover {
-    background-color: purple;
-    font-size: 15px;
-    border-style: : 9;
+    background-color: #6c7f77;
+    transition: all 2s, ease-in-out;
 }
 
 .fa {
@@ -165,4 +244,38 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+
+/*================Media Queries====================*/
+
+@media (max-width: 560px) {
+    html {
+        font-size: .5em;
+        background-color: lightblue;
+    }
+    .col1,
+    .col2 {
+        width: 100%;
+    }
+    #topnav {
+        display: none;
+        background-color: transparent;
+    }
+    .hamburger {
+        display: block;
+        color: #fff;
+        font-size: 1.7rem;
+        position: absolute;
+        top: 10px;
+        left: 2px;
+    }
+}
+
+@media (min-width: 561px) {
+    .content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
 }
