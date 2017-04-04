@@ -1,6 +1,6 @@
 body {
-    padding-left: 20px;
-    height: 400px;
+    /*padding-left: 20px;
+    height: 400px;*/
 }
 
 section {
@@ -29,10 +29,11 @@ h1 {
     font-weight: 600;
     color: white;
     text-align: center;
+    letter-spacing: 30px;
     color: white;
     margin: 0;
     position: absolute;
-    top: 100px;
+    top: 175px;
     left: 0;
     width: 100%;
     background: "images/blog_header_bg.jpg" no-repeat max-width;
@@ -59,6 +60,8 @@ a {
     font-weight: 400;
     color: grey;
     text-decoration: none;
+    padding: 100px;
+    align-content: center;
 }
 
 a:hover {
@@ -66,7 +69,7 @@ a:hover {
 }
 
 img {
-    width: 80%;
+    width: 100%;
     align-content: center;
 }
 
@@ -75,12 +78,13 @@ p {
     font-weight: 400;
     line-height: 26px;
     font-size: 16px;
-    text-align: left;
+    text-align: center;
 }
 
 footer {
     font-family: raleway (600);
     padding-top-bottom: 30px, padding-right-left: 20px;
+    height: 10%;
     background: lightblue;
 }
 
@@ -88,18 +92,24 @@ footer {
     position: fixed;
     display: inline-block;
     background: white;
-    /*opacity: 0.8;*/
-    justify-content: space-between;
     width: 100%;
-    height: 50px;
-    padding-top-bottom: 30px, /* padding-right-left: 300px;*/
+    list-style-type: none;
+    list-style-position: justify;
 }
 
-textarea {
-    box-sizing: border-box;
-    padding-left-right: 20px;
+#headerbar ul {
+    list-style-type: none;
+    text-align: center;
 }
 
+@media screen and (min-width: 600px) {
+    #headerbar {
+        color: red;
+    }
+}
+
+
+}
 
 }
 .button {
@@ -121,28 +131,39 @@ textarea {
     padding-top: 50px;
 }
 #navtabs {
-    padding-left-right: 50px;
+    list-style-type: none;
+    list-style-position: justify;
 }
 #form-field {
     padding: 20px 60px 20px 60px;
-    text-align: center;
-    line-height: 20px;
+    text-align: left;
+    line-height: 40px;
+}
+#links {
+    justify-content: center;
+    border-bottom: 2px black;
 }
 #copyright {
     text-align: center;
     margin-left: auto;
 }
-.row {
+#comment-heading {
+    justify-content: space-around;
+}
+#comment-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+#footer .row {
     /* Let's add a border so we can see our rows better */
-    
     border: 1px solid #000;
 }
 .column {
-    /* Let's add another border so we can see our columns better */
-    
-    float: center;
+    /*  float: center;
     border: 1px solid #000;
-    display: inline-block;
+    display: inline-block;*/
 }
 .column-1 {
     width: 8.33%;
@@ -159,6 +180,8 @@ textarea {
 .column-5 {
     width: 41.66%;
     display: inline-block;
+    padding: 10px;
+    margin: 10px;
 }
 .column-6 {
     width: 50%;
@@ -180,4 +203,6 @@ textarea {
 }
 .column-12 {
     width: 100%;
+    padding: 10px;
+    margin: 10px;
 }
