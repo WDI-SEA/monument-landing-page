@@ -4,6 +4,7 @@
 <head>
     <title>MONUMENT</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script src="https://use.fontawesome.com/53a7f101f4.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -11,42 +12,44 @@
 
 <body>
     <header>
-        <nav class="navigator">
-            <!-- <nav class="hamburger"><i class="fa fa-bars"></i> -->
-            <a href="#">about</a>
-            <a href="#">gallery</a>
-            <a href="#">blog</a>
-            <a href="#">contact</a>
+        <i class="fa fa-bars"></i>
+        <nav class="hamburger">
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#blog">blog</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
         </nav>
         <div class="headerImage">
             <h1>monument</h1>
             <h2>a lifestyle magazine</h2>
         </div>
     </header>
-    <div class="rowTop">
+    <div id="blog" class="rowTop">
         <h2>From The Archive</h2>
         <main>
             <div class="column1">
                 <img src="images/article_1.jpg" alt="lonely cactus in a desert">
                 <h3>issue twenty - the southwest</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <input type="submit" name="mainsubmit" value="read more">
+                <input type="submit" class="subBody" name="mainsubmit" value="read more">
             </div>
             <div class="column2">
                 <img src="images/article_2.jpg" alt="happy little campfire">
                 <h3>issue nineteen - camping</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <input type="submit" name="mainsubmit" value="read more">
+                <input type="submit" name="mainsubmit" class="subBody" value="read more">
             </div>
             <div class="column3">
                 <img src="images/article_3.jpg" alt="could be a piece of pie">
                 <h3>issue eighteen - food</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eos modi voluptas optio dignissimos, quisquam saepe fugiat, possimus minus est praesentium atque voluptate voluptates earum sapiente quam eius consectetur dicta.</p>
-                <input type="submit" name="mainsubmit" value="read more">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eos modi voluptas optio dignissimos, quisquam saepe fugiat, possimus minus est praesentium atque voluptate voluptates earum sapiente quam eius consectetur dicta. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur voluptatum in aperiam dolor nemo, ipsa labore similique quos sunt at cumque dolores amet officia voluptatibus praesentium maxime veniam enim quasi.</p>
+                <input type="submit" name="mainsubmit" class="subBody" value="read more">
             </div>
         </main>
     </div>
-    <div class="rowMid">
+    <div id="about" class="rowMid">
         <h2>about the magazine</h2>
         <h3>a lifestyle magazine crafted with love</h3>
         <article>
@@ -55,32 +58,32 @@
             </div>
         </article>
     </div>
-    <div class="rowLast">
+    <div id="gallery" class="rowLast">
         <h2>issue twenty</h2>
         <h3>a visual guide to the southwest</h3>
         <section>
-            <div class="column1">
+            <div class="column4">
                 <img src="images/gallery_1.jpg" alt="loads of cacti">
                 <img src="images/gallery_2.jpg" alt="close up cactus">
             </div>
-            <div class="column2">
+            <div class="column5">
                 <img src="images/gallery_3.jpg" alt="tree hanging out in the distance">
                 <img src="images/gallery_4.jpg" alt="canyon with desert forefront">
             </div>
-            <div class="column3">
+            <div class="column6">
                 <img src="images/gallery_5.jpg" alt="line of cacti">
                 <img src="images/gallery_6.jpg" alt="tall cacti with smaller cacti surrounding">
             </div>
         </section>
     </div>
-    <div class="comments">
+    <div id="contact" class="comments">
         <h2>get in touch</h2>
         <form>
             <input type="text" name="name" placeholder="name">
             <input type="email" name="email" placeholder="email">
             <input type="text" name="subject" placeholder="subject">
             <textarea class="comSection" name="commentsection" placeholder="comment"></textarea>
-            <input type="submit" name="submit" value="submit">
+            <input type="submit" name="submit" class="subBody" value="submit">
         </form>
     </div>
     <footer>
@@ -94,7 +97,7 @@
         <div class="contact">
             <form>
                 <input type="email" class="footerEmail" name="email" placeholder="email address">
-                <input type="submit" class="footerSubmit" value="keep in touch">
+                <input type="submit" class="subBody" value="keep in touch">
             </form>
         </div>
         <p>©2017 Celina Gutierrez</p>
@@ -102,13 +105,3 @@
 </body>
 
 </html>
-<!-- <nav>
-    <a class="hamburger" href=""><i class="fa-fa-bars"></i></a>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</nav> -->

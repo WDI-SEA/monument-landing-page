@@ -1,278 +1,396 @@
-body {
-    font-family: 'Raleway', san-serif;
-    line-height: 1;
-    background: white;
-    margin: 2em 0 0 0;
-}
-
-header nav a {
-    text-align: center;
-    text-decoration: none;
-    color: #7f9bad;
-    padding: 7pt 0 7pt 0;
-}
-
-.navigator {
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    z-index: 99;
-    width: 100%;
-}
-
-.headerImage {
-    width: 100%;
-    background-image: url("/home/celina/wdi/exercises/monument-landing-page/pt-4/images/home_header_bg.jpg");
-    background-position: center;
-    height: 22em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-}
-
-h1 {
-    letter-spacing: 6pt;
-    font-weight: 600;
-    text-align: center;
-    width: 100%;
-    justify-content: center;
-    align-self: center;
-    display: block;
-    color: white;
-}
-
-.headerImage h2 {
-    color: white;
-}
-
-h1,
-h2,
-h3,
-nav {
-    text-transform: uppercase;
-    font-family: 'Raleway', san-serif;
-    font-weight: 600;
-}
-
-h2 {
-    font-size: 1.1em;
-    letter-spacing: .9pt;
-    color: #44545e;
-    text-align: center;
-}
-
-h3 {
-    letter-spacing: 1.25pt;
-    font-size: .9em;
-    color: #44545e;
-    text-align: center;
-}
-
-img {
-    display: inline-block;
-    max-width: 100%;
-    position: relative;
-}
-
-p {
-    font-size: .85em;
-    color: #5a6871;
-    line-height: 1.4;
-    font-family: 'Lato', san-serif;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    justify-content: space-around;
-}
-
-.rowTop {
-    padding: 0;
-    margin: 2em auto;
-}
-
-.column1 {
-    padding: 1em;
-    width: 23%;
-}
-
-.column2 {
-    padding: 1em;
-    width: 23%;
-}
-
-.column3 {
-    width: 23%;
-    padding: 1em;
-}
-
-article {
-    display: flex;
-    height: 7.82em;
-    padding: 1em;
-    justify-content: center;
-}
-
-.rowMid {
-    background-color: #cdf3f6;
-    padding: 2em;
-    margin: 3em auto;
-    width: 100%;
-}
-
-.textChunk {
-    width: 50%;
-}
-
-.rowLast {
-    padding: 0;
-    margin: 0 auto;
-}
-
-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-form {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.comments {
-    padding: 0;
-    justify-content: space-between;
-    margin: 5em auto;
-}
-
-.comments .comSection {
-    width: 100%;
-    height: 17em;
-    border: 2px solid black;
-    text-transform: uppercase;
-    margin: .25em .625em;
-    padding: .625em 3.75em;
-    font-weight: 600;
-    letter-spacing: .5px;
-    background-color: transparent;
-    font-family: 'Raleway', san-serif;
-}
-
-.comments input[type="submit"] {
-    width: 100%;
-    border: 2px solid black;
-}
-
-.comments input[type="email"] {
-    border: 2px solid black;
-    width: 26.76%;
-    background-color: transparent;
-}
-
-input[type="text"] {
-    border: 2px solid black;
-    width: 26.76%;
-    font-family: 'Raleway', san-serif;
-    text-align: left;
-    color: #44545e;
-    text-transform: uppercase;
-    margin: .25em .625em;
-    padding: .625em 3.75em;
-    font-weight: 600;
-    letter-spacing: .5px;
-    background-color: transparent;
-}
-
-footer {
-    background-color: #cdf3f6;
-    width: 100%;
-    text-align: center;
-    font-family: 'Lato', san-serif;
-    font-weight: 400;
-}
-
-footer nav a {
-    text-decoration: none;
-    color: #44545e;
-    padding: 7pt 0 0 0;
-}
-
-.footerNav {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 30pt;
-}
-
-input[type=submit] {
-    background-color: transparent;
-    border: 2px solid black;
-    font-family: 'Raleway';
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: .25em .625em;
-    padding: .625em 3.75em;
-    font-weight: 600;
-    color: #44545e;
-    letter-spacing: .5px;
-}
-
-input[type=email] {
-    border: none;
-    font-family: 'Raleway', san-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #44545e;
-    margin: .25em .625em;
-    padding: .625em 3.75em;
-    font-weight: 600;
-    letter-spacing: .5px;
-}
-
-.footerEmail {
-    text-align: center;
-}
-
-.contact {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0;
-}
-
-footer p {
-    padding: 10pt;
-    border-top: 1px solid black;
-}
-
-@media only screen and (max-width:560px) {
-    html {
-        font-size: 14px;
+    body {
+        font-family: 'Raleway', san-serif;
+        line-height: 1;
+        background: white;
+        margin: 1em 0 0 0;
     }
-    nav ul {
+    
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .hamburger {
+        text-align: center;
+        margin: 0 auto;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        background-size: cover;
+        z-index: 99;
+        padding: 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    i {
         display: none;
     }
+    
+    ul a {
+        padding: 0 3em;
+        color: grey;
+        text-decoration: none;
+    }
+    
+    ul {
+        text-decoration: none;
+        padding: 1em;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        display: flex;
+    }
+    
+    .headerImage {
+        width: 100%;
+        background-image: url("/home/celina/wdi/exercises/monument-landing-page/pt-4/images/home_header_bg.jpg");
+        background-position: center;
+        height: 22em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    
+    nav a:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    h1 {
+        letter-spacing: 6pt;
+        font-weight: 600;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        align-self: center;
+        display: block;
+        color: white;
+    }
+    
+    .headerImage h2 {
+        color: white;
+    }
+    
+    h1,
+    h2,
+    h3,
     nav {
+        text-transform: uppercase;
+        font-family: 'Raleway', san-serif;
+        font-weight: 600;
+    }
+    
+    h2 {
+        font-size: 1.1em;
+        letter-spacing: .9pt;
+        color: #44545e;
+        text-align: center;
+    }
+    
+    h3 {
+        letter-spacing: 1.25pt;
+        font-size: .9em;
+        color: #44545e;
+        text-align: center;
+    }
+    
+    img {
+        display: inline-block;
+        max-width: 100%;
+        position: relative;
+    }
+    
+    p {
+        font-size: .85em;
+        color: #5a6871;
+        line-height: 1.4;
+        font-family: 'Lato', san-serif;
+        text-align: center;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+    
+    .rowTop {
+        padding: 0;
+        margin: 2em auto;
+    }
+    
+    .column1 {
+        padding: 1em;
+        width: 23%;
+    }
+    
+    .column2 {
+        padding: 1em;
+        width: 23%;
+    }
+    
+    .column3 {
+        width: 23%;
+        padding: 1em;
+    }
+    
+    .column4 {
+        padding: 1em;
+        width: 23%;
+    }
+    
+    .column5 {
+        padding: 1em;
+        width: 23%;
+    }
+    
+    .column6 {
+        width: 23%;
+        padding: 1em;
+    }
+    
+    article {
+        display: flex;
+        height: 12em;
+        padding: 1em;
+        justify-content: center;
+    }
+    
+    .rowMid {
+        background-color: #cdf3f6;
+        padding: 2em;
+        margin: 3em auto;
+        width: 100%;
+    }
+    
+    .textChunk {
+        width: 50%;
+    }
+    
+    .rowLast {
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .comments {
+        padding: 0;
+        justify-content: space-between;
+        margin: 5em auto;
+    }
+    
+    .comments .comSection {
+        width: 100%;
+        height: 17em;
+        border: 2px solid black;
+        text-transform: uppercase;
+        margin: .25em .625em;
+        padding: .625em 3.75em;
+        font-weight: 600;
+        letter-spacing: .5px;
+        background-color: transparent;
+        font-family: 'Raleway', san-serif;
+    }
+    
+    .comments input[type="submit"] {
+        width: 100%;
+        border: 2px solid black;
+    }
+    
+    .comments input[type="email"] {
+        border: 2px solid black;
+        width: 26.76%;
         background-color: transparent;
     }
-    .hamburger {
-        display: block;
-        color: #fff;
-        font-size: 1.7em;
-        position: absolute;
-        top: 10px;
-        left: 2px;
+    
+    input[type="text"] {
+        border: 2px solid black;
+        width: 26.76%;
+        font-family: 'Raleway', san-serif;
+        text-align: left;
+        color: #44545e;
+        text-transform: uppercase;
+        margin: .25em .625em;
+        padding: .625em 3.75em;
+        font-weight: 600;
+        letter-spacing: .5px;
+        background-color: transparent;
     }
-    /*there's add'l info that needs to be entered here for smaller screens -- COME BACK TO THIS*/
-}
+    
+    .subBody:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    footer {
+        background-color: #cdf3f6;
+        width: 100%;
+        text-align: center;
+        font-family: 'Lato', san-serif;
+        font-weight: 400;
+    }
+    
+    footer nav a {
+        text-decoration: none;
+        color: #44545e;
+        padding: 7pt 0 0 0;
+    }
+    
+    .footerNav {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 30pt;
+    }
+    
+    input[type=submit] {
+        background-color: transparent;
+        border: 2px solid black;
+        font-family: 'Raleway';
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: .25em .625em;
+        padding: .625em 3.75em;
+        font-weight: 600;
+        color: #44545e;
+        letter-spacing: .5px;
+    }
+    
+    input[type=email] {
+        border: none;
+        font-family: 'Raleway', san-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #44545e;
+        margin: .25em .625em;
+        padding: .625em 3.75em;
+        font-weight: 600;
+        letter-spacing: .5px;
+    }
+    
+    .footerEmail {
+        text-align: center;
+    }
+    
+    .contact {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    
+    footer p {
+        padding: 10pt;
+        border-top: 1px solid black;
+    }
+    
+    @media (max-width:561px) {
+        html {
+            font-size: 14px;
+        }
+        body {
+            margin: 0;
+            width: 100%;
+        }
+        nav ul {
+            display: none;
+        }
+        nav {
+            background-color: transparent;
+        }
+        .hamburger {
+            display: block;
+            color: #fff;
+            font-size: 1.7em;
+            position: absolute;
+        }
+        i {
+            display: block !important;
+            margin: 1em;
+            z-index: 99;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .headerImage {
+            width: 35em;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        main {
+            flex-direction: column;
+        }
+        .rowTop {
+            justify-content: center;
+            margin: 0 auto;
+            padding: 2em 0;
+            align-items: center;
+            width: 100%;
+        }
+        .column1,
+        .column2,
+        .column3 {
+            width: 80%;
+            margin: 0 auto;
+            padding: 1em;
+            justify-content: center;
+        }
+        article {
+            padding: 1em 0;
+            height: 25em;
+        }
+        .rowMid {
+            margin: 0 auto;
+            width: 30.25em;
+        }
+        section {
+            flex-wrap: wrap;
+        }
+        .rowLast {
+            justify-content: center;
+            margin-left: 2em;
+            padding: 2em 0;
+        }
+        .column4,
+        .column5,
+        .column6 {
+            width: 25%;
+        }
+        .comments input[type="email"] {
+            width: 100%;
+        }
+        input[type="text"] {
+            width: 100%;
+        }
+        .contact {
+            flex-direction: column;
+        }
+        input[type=submit] {
+            width: 100%;
+        }
+        input[type=email] {
+            width: 100%;
+        }
+        .subBody:hover {
+            background-color: black;
+            color: white;
+        }
+    }
