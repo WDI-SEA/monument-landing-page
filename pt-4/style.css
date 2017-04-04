@@ -330,7 +330,7 @@
             width: 100%;
         }
         .headerImage {
-            width: 35em;
+            width: 100%;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -359,7 +359,7 @@
         }
         .rowMid {
             margin: 0 auto;
-            width: 30.25em;
+            width: 100%;
         }
         section {
             flex-wrap: wrap;
