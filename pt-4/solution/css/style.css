@@ -1,0 +1,549 @@
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    color: #555;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-image: url("../images/blog_header_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: tan;
+    height: 23em;
+    color: white;
+}
+
+.index-header {
+    background-image: url("../images/home_header_bg.jpg");
+    height: 32em;
+    margin-bottom: 4em;
+}
+
+.hamburger {
+    display: none;
+    color: white;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.navbar {
+    background-color: white;
+    padding-bottom: 1em;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: .1em 4%;
+    -ms-transform: translate(-1.5em, 0);
+    -webkit-transform: translate(-1.5em, 0);
+    transform: translate(-1.5em, 0);
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #777;
+    font-size: .8em;
+    font-weight: 400;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .5em;
+    padding-top: 4.5em;
+}
+
+h4 {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.index-h4 {
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+article {
+    border-bottom: 1px solid gray;
+    margin-bottom: .625em;
+}
+
+article img {
+    max-width: 100%;
+}
+
+p {
+    font-size: .5em;
+}
+
+section h3 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+section img {
+    max-width: 100%;
+}
+
+section ul li {
+    line-height: 1em;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #777;
+    font-size: .9em;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #BDFFFF;
+}
+
+footer nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 2em 1%;
+    -ms-transform: translate(-1.5em, 0);
+    -webkit-transform: translate(-1.5em, 0);
+    transform: translate(-1.5em, 0);
+}
+
+footer nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #777;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+footer p {
+    text-align: center;
+    padding: 1.25em;
+    border-top: 2px solid #777;
+    font-size: .8em;
+}
+
+.flexbox-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.column1 {
+    width: 70%;
+    padding: .625em;
+    margin-right: 1.25em;
+}
+
+.column2 {
+    width: 30%;
+    padding: .625em;
+}
+
+.archive-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex -start;
+    margin-top: 3em;
+}
+
+.archive-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.archive-h5 {
+    font-size: .75em;
+}
+
+.archive-issue > p {
+    line-height: 1.75em;
+    margin: 2.5em auto;
+}
+
+.archive-button {
+    text-decoration: none;
+    display: inline-block;
+    font-size: .5em;
+    font-weight: 900;
+    padding: .75em 2em;
+    color: #000;
+    border: 2px solid #777;
+}
+
+.about-the-magazine {
+    background-color: #BDFFFF;
+    margin: 4em 0;
+    padding: 4em 7em;
+}
+
+.about-h4 {
+    margin-top: 1em;
+    margin-bottom: .75em;
+}
+
+.about-h5 {
+    margin: 0 auto 2em;
+}
+
+.about-the-magazine > p {
+    line-height: 1.66em;
+    margin: 1em 0;
+}
+
+.issue-section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+.issue-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: space-between;
+    height: 80vw;
+}
+
+.issue-h4 {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.issue-h5 {
+    font-size: .8em;
+    margin-top: 0;
+    margin-bottom: 3em;
+}
+
+.issue-img {
+    margin-bottom: 1.5%
+}
+
+footer div {
+    margin: 0 auto 2.5em auto;
+    width: 50%;
+}
+
+.email-address {
+    border: 0;
+    color: #777;
+    padding: .9em;
+    margin: 0 0 1em 0;
+    text-align: center;
+}
+
+.button {
+    background-color: transparent;
+    color: #777;
+    padding: .7em 1.6em;
+    margin: 0 0 1em 0;
+    text-align: center;
+    -webkit-transition: color 2s;
+    transition: color 2s;
+    -webkit-transition: background-color 2s;
+    transition: background-color 2s;
+}
+
+.button:hover {
+    color: white;
+    background-color: #777;
+}
+
+#copyright {
+    clear: both;
+}
+
+.comment-form,
+.message-form {
+    border: 1px solid transparent;
+    width: 80%;
+    margin: 0 auto;
+}
+
+form h2 {
+    margin-bottom: 2em;
+    font-size: 1em;
+}
+
+.center {
+    text-align: center;
+}
+
+.name,
+.email,
+.full-name,
+.subject {
+    color: #777;
+    padding: .4em 1em;
+    margin: 0 0 .7em;
+    height: 2.5em;
+    border: 2px solid #777;
+}
+
+.comment,
+.message {
+    color: #777;
+    padding: 1em;
+    height: 8em;
+    border: 2px solid #777;
+}
+
+.submit {
+    color: #777;
+    background-color: transparent;
+    padding: .3em;
+    margin: .5em 0 5em 0;
+    height: 2.5em;
+    border: 2px solid #777;
+}
+
+.comment-form,
+.keep-in-touch-form,
+.message-form {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex -start;
+}
+
+.col-1-2 {
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.col-2-2 {
+    width: 100%;
+}
+
+.col-1-3 {
+    width: 32%;
+    box-sizing: border-box;
+}
+
+.col-1-3-a {
+    width: 32%;
+    box-sizing: border-box;
+}
+
+.col-1-3-b {
+    width: 32%;
+    box-sizing: border-box;
+}
+
+.col-2-3 {
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.col-3-3 {
+    width: 100%;
+}
+
+
+/*Device width is > = 561px and < = 768px*/
+
+@media only screen and (min-width: 561px) and (max-width: 768px) {
+    body {
+        background-color: white;
+    }
+    .navbar {
+        font-size: 1.2em;
+    }
+    h1 {
+        font-size: 2.2em;
+    }
+    .index-header h4 {
+        font-size: 1.5em;
+    }
+    .archive-h4 {
+        font-size: 1.4em;
+    }
+    .col-1-3-a {
+        width: 100%;
+    }
+    .archive-img {
+        height: 50%;
+        width: 50%;
+    }
+    .archive-h5 {
+        font-size: 1em;
+    }
+    p {
+        font-size: .8em;
+    }
+    .archive-issue > p {
+        width: 90%;
+    }
+    .archive-button {
+        margin-bottom: 4em;
+        font-size: .7em;
+    }
+    .about-the-magazine {
+        padding: 4em 1em;
+    }
+    .about-h4 {
+        font-size: 1.3em;
+    }
+    .about-h5 {
+        font-size: 1em;
+    }
+    .about-the-magazine > p {
+        font-size: .9em;
+    }
+    .issue-h4 {
+        font-size: 1.3em;
+    }
+    .issue-h5 {
+        font-size: 1em;
+    }
+    form h2 {
+        font-size: 1.33em;
+    }
+}
+
+
+/*Device width is < = 560px*/
+
+@media only screen and (max-width: 560px) {
+    body {
+        background-color: white;
+    }
+    .hamburger {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+    h1 {
+        padding-top: 4em;
+    }
+    .column1 {
+        width: 100%;
+        margin: 0 1.25em;
+    }
+    .column2 {
+        display: none;
+    }
+    p {
+        font-size: .8em;
+        line-height: 1.5em;
+    }
+    .col-1-2 {
+        width: 100%;
+    }
+    footer nav ul li {
+        margin: 2em 3%;
+    }
+    .email-address {
+        margin: 0 0 1em 0;
+    }
+    .button {
+        margin: 0 0 1em 0;
+    }
+    footer div {
+        width: 70%;
+    }
+    .col-1-3-a {
+        width: 100%;
+    }
+    .col-1-3-b {
+        width: 100%;
+    }
+    .col-2-3 {
+        width: 100%;
+    }
+    .col-1-3 {
+        width: 49%;
+    }
+    .issue-container {
+        height: 180vw;
+    }
+    .index-header h1 {
+        padding-top: 3.5em;
+        font-size: 1.8em;
+    }
+    .index-header h4 {
+        font-size: 1.2em;
+    }
+    .archive-h4 {
+        font-size: 1.2em;
+    }
+    .archive-img {
+        height: 90%;
+        width: 90%;
+    }
+    .archive-h5 {
+        font-size: 1em;
+    }
+    p {
+        font-size: .8em;
+    }
+    .archive-issue > p {
+        width: 90%;
+        line-height: 1.4em;
+    }
+    .archive-button {
+        margin-bottom: 4em;
+        font-size: .7em;
+    }
+    .about-the-magazine {
+        padding: 4em 1em;
+    }
+    .about-h4 {
+        font-size: 1.3em;
+    }
+    .about-h5 {
+        font-size: 1em;
+        width: 80%;
+    }
+    .about-the-magazine > p {
+        font-size: .8em;
+    }
+    .issue-h4 {
+        font-size: 1.3em;
+    }
+    .issue-h5 {
+        font-size: 1em;
+    }
+    form h2 {
+        font-size: 1.33em;
+    }
+}

@@ -1,0 +1,292 @@
+body {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: #555;
+}
+
+header {
+    background-image: url("../images/blog_header_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: tan;
+    height: 23em;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+    color: white;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.navbar {
+    background-color: white;
+    padding-bottom: 1em;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: .1em 2%;
+    -ms-transform: translate(-1.5em, 0);
+    -webkit-transform: translate(-1.5em, 0);
+    transform: translate(-1.5em, 0);
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #777;
+    font-size: .8em;
+    font-weight: 900;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .5625em;
+    padding-top: 4em;
+}
+
+h4 {
+    font-size: 1em;
+    font-weight: 900;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+article {
+    border-bottom: 1px solid gray;
+    margin-bottom: .625em;
+}
+
+article img {
+    max-width: 100%;
+}
+
+p {
+    font-size: .5em;
+}
+
+section h3 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+section img {
+    max-width: 100%;
+}
+
+section ul li {
+    line-height: 1em;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #777;
+    font-size: .9em;
+    font-weight: 900;
+}
+
+footer {
+    background-color: #BDFFFF;
+}
+
+footer nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 2em 1%;
+    -ms-transform: translate(-1.5em, 0);
+    -webkit-transform: translate(-1.5em, 0);
+    transform: translate(-1.5em, 0);
+}
+
+footer nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #777;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+footer p {
+    text-align: center;
+    padding: 1.25em;
+    border-top: 2px solid #777;
+    font-size: .8em;
+}
+
+.flexbox-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.column1 {
+    width: 70%;
+    padding: .625em;
+    margin-right: 1.25em;
+}
+
+.column2 {
+    width: 30%;
+    padding: .625em;
+}
+
+footer div {
+    margin: 0 auto 2.5em auto;
+    width: 50%;
+}
+
+.email-address {
+    border: 0;
+    color: #777;
+    padding: .9em;
+    margin: 0 0 3em 0;
+    text-align: center;
+}
+
+.button {
+    background-color: transparent;
+    color: #777;
+    padding: .7em 1.875em;
+    margin: 0 0 3em 0;
+    text-align: center;
+    -webkit-transition: color 2s;
+    transition: color 2s;
+    -webkit-transition: background-color 2s;
+    transition: background-color 2s;
+}
+
+.button:hover {
+    color: white;
+    background-color: #777;
+}
+
+#copyright {
+    clear: both;
+}
+
+.comment-form {
+    /*border: 2px solid magenta;*/
+    width: 80%;
+    margin: 0 auto;
+}
+
+form h2 {
+    margin-bottom: 2em;
+}
+
+.center {
+    text-align: center;
+}
+
+.name {
+    color: #777;
+    padding: .4em 1em;
+    margin: 0 0 .7em;
+    height: 2.5em;
+    border: 2px solid #777;
+}
+
+.email {
+    color: #777;
+    padding: .4em 1em;
+    margin: 0 0 .7em;
+    height: 2.5em;
+    border: 2px solid #777;
+}
+
+.comment {
+    color: #777;
+    padding: 1em;
+    height: 8em;
+    border: 2px solid #777;
+}
+
+.submit {
+    color: #777;
+    background-color: transparent;
+    padding: .3em;
+    margin: .5em 0 5em 0;
+    height: 2.5em;
+    border: 2px solid #777;
+}
+
+.comment-form,
+.keep-in-touch-form {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex -start;
+}
+
+.col-1-2 {
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.col-2-2 {
+    width: 100%;
+}
+
+@media (max-width: 560px) {
+    body {
+        background-color: white;
+    }
+    .hamburger {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+    h1 {
+        padding-top: 3em;
+    }
+    .column1 {
+        width: 100%;
+        margin: 0 1.25em;
+    }
+    .column2 {
+        display: none;
+    }
+    p {
+        font-size: .8em;
+        line-height: 1.5em;
+    }
+    .col-1-2 {
+        width: 100%;
+    }
+    footer nav ul li {
+        margin: 2em 3%;
+    }
+    .email-address {
+        margin: 0 0 1em 0;
+    }
+    .button {
+        margin: 0 0 1em 0;
+    }
+    footer div {
+        width: 70%;
+    }
+}
