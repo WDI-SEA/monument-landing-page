@@ -1,0 +1,120 @@
+body {
+    padding-left: 20px;
+    height: 400px;
+    border: 1px solid blue;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    /*        flex-wrap: wrap;
+*/
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+article {
+    width: 60% margin-left: 10%;
+}
+
+aside {
+    width: 20%;
+    margin-right: : 10%
+}
+
+nav {
+    /*position: absolute;
+    margin: 10px;
+    padding-right-left: 60px;*/
+    /*   margin: 0 40px 0 40px;*/
+}
+
+.stickybar {
+    position: fixed;
+    display: inline-block;
+    background: white;
+    opacity: 0.8;
+    justify-content: space-between;
+    width: 800px;
+    padding-top-bottom: 30px, padding-right-left: 300px;
+}
+
+h1 {
+    font-family: raleway, sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background: "images/blog_header_bg.jpg" no-repeat max-width;
+    display: inline-block;
+}
+
+h2 {
+    font-family: raleway, sans-serif;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+}
+
+h3 {
+    font-family: raleway, sans-serif;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    font-size: small;
+}
+
+a {
+    font-family: Lato;
+    font-weight: 400;
+    color: grey;
+    text-decoration: none;
+}
+
+img {
+    width: 80%;
+    align-content: center;
+}
+
+p {
+    font-family: lato;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+/*a {
+        border-bottom: 2px solid transparent;*/
+
+
+}
+a:hover {
+    border-color: white;
+}
+.button {
+    background: lightblue;
+    border-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.button a {
+    color: white;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+footer {
+    font-family: raleway (600);
+    padding-top-bottom: 30px, padding-right-left: 20px;
+    background: lightblue;
+}
+#copyright {}

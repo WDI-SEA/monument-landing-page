@@ -1,0 +1,242 @@
+body {
+    font-size: 24px;
+}
+
+header {}
+
+nav {
+    background-color: transparent;
+}
+
+.hamburger a {
+    display: block;
+    color: #fff;
+    font-size: 1.7rem;
+    position: absolute;
+    top: 1em;
+    left: 3em;
+}
+
+.navbar {
+    top: 0;
+    position: fixed;
+    display: inline-block;
+    background: white;
+    width: 100%;
+    list-style-type: none;
+    list-style-position: justify;
+    font-size: 0.8em;
+}
+
+#headerbar ul {
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-around;
+    height: 0.8em;
+}
+
+#headerbar li {
+    font-family: 'raleway', sans-serif;
+    font-size: 1em;
+    width: 24%;
+    display: inline-block;
+}
+
+#headerimage {
+    background-image: url("images/home_header_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.7em;
+    color: white;
+}
+
+h2 {
+    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.7em;
+    color: black;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+article {
+    /*display: inline-block;
+    width: 100%;
+    margin: 10%;
+    padding: 4em;*/
+}
+
+#about {
+    background-color: lightblue;
+    padding: 2em 3em 2em 3em;
+}
+
+a {
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: grey;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+a:hover {
+    border-color: grey;
+}
+
+img {
+    width: 100%;
+    align-content: center;
+    display: inline-block;
+}
+
+img:hover {
+    transition: grey;
+}
+
+p {
+    font-family: lato;
+    font-weight: 400;
+    line-height: 1.2em;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+input {
+    padding-left: 1em;
+}
+
+footer {
+    font-family: 'raleway', sans-serif;
+    padding-top-bottom: 1.2em, padding-right-left: 1em;
+    height: 10%;
+    background: lightblue;
+}
+
+footer button {
+    width: 11em;
+}
+
+.button {
+    background: lightblue;
+    border-color: white;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#navtabs {
+    list-style-type: none;
+    list-style-position: justify;
+}
+
+#form-field {
+    padding: 1em 2em 1em 2em;
+    text-align: left;
+    line-height: 2em;
+    display: flex;
+}
+
+svg {
+    width: 15rem;
+    height: 4rem;
+}
+
+#heading2 {
+    color: black;
+}
+
+#button {
+    border: #000;
+    outline: solid;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-left: 20px;
+    transition: all 2s ease-in-out;
+}
+
+#button:hover {
+    background-color: lightgreen;
+    transition: all 2s ease-in-out;
+}
+
+#links {
+    justify-content: center;
+    border-bottom: 2px #000;
+}
+
+#copyright {
+    text-align: center;
+    margin-left: auto;
+    border-top: 0.2em black;
+}
+
+#comment-heading h2 {
+    justify-content: space-around;
+}
+
+#comment-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer .row {
+    /* Let's add a border so we can see our rows better */
+    border: 1px solid #000;
+}
+
+.col-1-3 {
+    width: 30%;
+    justify-content: space-between;
+}
+
+.col-half {
+    width: 100%;
+}
+
+.col-3-3 {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 499px) {
+    #headerbar ul {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+}
