@@ -1,0 +1,84 @@
+body {
+    margin-right: 5em;
+    margin-left: 5em;
+}
+
+.nava {
+    text-align: center;
+}
+
+.nava li {
+    display: inline-block;
+}
+
+.nava a {
+    color: grey;
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.aboutp {
+    width: 50%;
+    height: 25%;
+}
+
+.headerimage {
+    position: relative;
+    width: 100%;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Lato;
+    font-size: 28pt;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
+h2,
+h3 {
+    font-family: Lato;
+    color: #44545e;
+}
+
+h4 {
+    font-size: 10pt;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: grey;
+    text-align: justify;
+}
+
+section {
+    display: inline-block;
+}
+
+ul {
+    color: #48a7c9;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+footer {
+    background-color: #aff1f7;
+    text-align: center;
+}
+
+footer li {
+    color: #44545e;
+    display: inline-block;
+}

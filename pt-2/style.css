@@ -1,0 +1,128 @@
+.main {
+    display: flex;
+    margin: 0 50px;
+}
+
+article {
+    width: 60%;
+    margin-right: 10%;
+}
+
+aside {
+    width: 30%;
+}
+
+header {
+    display: flex;
+    width: 90%;
+}
+
+header ul.nava {
+    width: 10%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.nava li {}
+
+.nava a {
+    color: grey;
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.headerimg {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutp {
+    max-width: 75%;
+    max-height: 50%;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Lato;
+    font-size: 28pt;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
+h2,
+h3 {
+    font-family: Lato;
+    color: #44545e;
+}
+
+h4 {
+    font-size: 10pt;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: grey;
+    text-align: justify;
+    margin-bottom: 30px
+}
+
+ul {
+    color: #48a7c9;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+nav {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    width: 100%;
+}
+
+footer {
+    background-color: #ceedef;
+    display: flex;
+    text-align: center;
+}
+
+footer li {
+    color: #44545e;
+    display: inline-block;
+}
+
+div.copyright {
+    border-top: 1px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-width:
+}
+
+div.contact button {
+    font-size: 10pt;
+    border: 1px solid black;
+    background-color: transparent;
+    margin: 15px 15px 15px 100px;
+}
+
+div.contact input {
+    border: 1px white;
+    font-size: 14pt;
+}
+
+fafa-facebook-square {
+    background-color: red;
+}
