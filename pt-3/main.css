@@ -1,0 +1,164 @@
+nav {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    margin: 25px 0 25px 0;
+    padding: 5px 0 5px 0;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+    font-size: 1.25vw;
+}
+
+textarea {
+    width: 50%;
+}
+
+.comment-area {
+    text-align: center;
+}
+
+.header-image {
+    position: relative;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    padding: 10px;
+}
+
+.flex-item {
+    width: 70%;
+    padding: 10px 40px 0px 40px;
+}
+
+.flex-item1 {
+    width: 30%;
+    padding: 0px 40px 0px 40px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+nav a {
+    color: rgb(117, 147, 165);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    margin: 40px;
+}
+
+div h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: .2em;
+    font-weight: 500;
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    width: 100%;
+    font-size: 4vw;
+}
+
+h2,
+h3 {
+    color: rgb(68, 84, 93);
+}
+
+h3 {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    padding-top: 5px;
+}
+
+li a {
+    color: rgb(117, 147, 165);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div textarea {
+    border: 1px solid black;
+    width: 88.5%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-border {
+    border: 2px solid black;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.input-size {
+    width: 43%;
+    height: 50px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.links {
+    padding-bottom: 100px;
+    word-spacing: 2em;
+}
+
+.submit {
+    width: 89.5%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 1px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+footer {
+    background-color: rgb(202, 238, 241);
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 20px 20px 20px;
+}
+
+footer p {
+    border-top: 1px solid black;
+    padding: 20px 0 10px 0;
+    width: 100%;
+}
+
+input[type=submit] {
+    border: 2px solid black;
+    padding: 10px 40px 10px 40px;
+    background-color: rgba(202, 238, 241, 0);
+}
+
+input[type=email] {
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        display: inline-block;
+        width: 100%;
+    }
+    .flex-item1 {
+        width: 70%;
+    }
+}
