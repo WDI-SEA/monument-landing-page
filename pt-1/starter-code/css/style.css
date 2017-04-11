@@ -1,0 +1,80 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #435963;
+    margin: 0;
+}
+
+main {
+    margin: 0 7%;
+}
+
+.caps {
+    text-transform: uppercase;
+    font-weight: bolder
+}
+
+ul {
+    list-style: none;
+}
+
+ul.navList {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #69A4BE;
+}
+
+ul.social li a {
+    color: #435963;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40pt;
+    letter-spacing: 6px;
+    margin-top: 35px;
+}
+
+h2 {
+    font-size: 17pt;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+p {
+    font-size: 14pt;
+}
+
+img {
+    width: 100%;
+}
+
+#aboutImg {
+    width: 45%;
+}
+
+ul.recentIssues {
+    list-style: disc
+}
+
+footer {
+    background: #A4F9FF;
+    text-align: center;
+    margin: 0 auto 5px auto;
+    width: 97%;
+}
+
+ul.social {}
+
+.social li {
+    display: inline-block;
+}
