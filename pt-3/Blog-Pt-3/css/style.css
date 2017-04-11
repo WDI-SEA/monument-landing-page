@@ -1,0 +1,111 @@
+html {
+    margin: 0 auto;
+}
+
+body {
+    color: #476B63;
+    font-family: 'Lato', sans-serif;
+    padding: 30px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-stretch: ultra-expanded;
+    padding: 0 25px;
+}
+
+p {
+    font-size: 13px;
+}
+
+nav {
+    color: gray;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+footer {
+    background-color: lightblue;
+    height: 200px;
+    text-align: center;
+}
+
+ul {
+    color: lightblue;
+}
+
+header nav a {
+    margin: 45px;
+    color: gray;
+    padding: 10px 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+article nav a {
+    color: lightblue;
+}
+
+div section nav a {
+    background-color: lightblue;
+}
+
+.mountain .column {
+    display: flex;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+    letter-spacing: 23px;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.journal .column {
+    display: flex;
+    width: 80%;
+    order: 1;
+    padding: 0 10px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 20px 25px;
+    height: 10px;
+}
+
+.copyright {
+    border-top: solid 2px gray;
+    padding: 2em;
+}
+
+.name {
+    height: 20px;
+    width: 50%;
+}
+
+.form {
+    flex-wrap: wrap;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
