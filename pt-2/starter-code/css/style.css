@@ -1,0 +1,131 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #44545e;
+    margin: 0;
+}
+
+.caps {
+    text-transform: uppercase;
+    font-weight: bolder
+}
+
+ul {
+    list-style: none;
+}
+
+ul.navList {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 6%;
+}
+
+a {
+    text-decoration: none;
+    color: #7b98aa;
+}
+
+ul.social li a {
+    color: #435963;
+}
+
+h1 {
+    background: black;
+    background-image: url(../images/blog_header_bg.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 30pt;
+    padding: 180px 0 70px 0;
+    letter-spacing: 6px;
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    font-size: 17pt;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+p {
+    font-size: 11pt;
+}
+
+img {
+    width: 100%;
+}
+
+#aboutImg {
+    width: 100%;
+}
+
+ul.recentIssues {
+    list-style: disc
+}
+
+footer {
+    background: #cdf3f6;
+    text-align: center;
+    height: 275px;
+}
+
+form {
+    text-transform: uppercase;
+    padding-bottom: 60px;
+    border-bottom: solid 2px;
+    margin-bottom: 25px;
+}
+
+input {
+    width: 23%;
+    padding: 7px 10px;
+    margin-right: 19px;
+    text-align: center;
+    border: none;
+    font-family: raleway;
+    color: #435963;
+    font-weight: bold;
+}
+
+button {
+    background: #cdf3f6;
+    border: solid 2px #435963;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #435963;
+    padding: 4px 20px;
+}
+
+ul.social {
+    font-size: 20pt;
+    margin: 0;
+}
+
+.social li {
+    display: inline-block;
+    margin: 54px 17px;
+}
+
+.flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-item {
+    margin: 0 3%;
+}
+
+.flex-item.right {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.flex-item.left {
+    width: 72%;
+}
