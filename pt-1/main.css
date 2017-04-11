@@ -1,0 +1,158 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    design: flex;
+}
+
+.blog-header {
+    background-image: url("starter-code/images/blog_header_bg.jpg");
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-top: 30pt;
+}
+
+.blog-header h1 {
+    color: #FFF;
+    font-weight: 200;
+    font-size: 20pt;
+}
+
+.content {
+    display: flex;
+}
+
+.col1 {
+    width: 70%;
+    padding: 0 20pt;
+    /*display: inline-block;*/
+}
+
+.col2 {
+    width: 30%;
+    padding: 0 20pt;
+    /*display: inline-block;*/
+}
+
+main {
+    /*position: relative;*/
+}
+
+nav {
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 0 0 20px;
+    text-transform: uppercase;
+    font-size: 11pt;
+    height: 20px;
+    position: fixed;
+    /*top: 0;*/
+    */ width: 100%;
+    background-color: rgba(231, 231, 231, 0.7);
+    display: inline;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #85A0B1;
+    padding: 0 30pt;
+    font-size: 10pt;
+}
+
+.topnav {
+    display: flex;
+}
+
+body {
+    margin: 0 auto;
+    padding: 50px 50pt;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #44545E;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30pt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #44545E;
+    font-weight: lighter;
+    font-size: 12pt;
+    font-weight: bold;
+    letter-spacing: 1.5pt;
+    line-height: 1em;
+}
+
+h3 {
+    color: #44545E;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #44545E;
+    font-weight: lighter;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+p {
+    color: #44545E;
+    line-height: 1.5em;
+}
+
+.about {
+    height: auto;
+    width: auto;
+}
+
+.previous a {
+    text-decoration: none;
+    color: #44545E;
+}
+
+.facebook-official {
+    font-size: 60px;
+}
+
+footer {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #CDF3F6;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.bottomnav {
+    bottom-border: black solid;
+}
+
+
+/*.clearfix:before {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;*/
+
+.fa {
+    text-align: center;
+    color: #44545E;
+    font-size: 1.5em;
+    letter-spacing: 1em;
+}
+
+footer p {
+    text-align: center;
+}
