@@ -131,6 +131,7 @@
     
     img {
         max-width: 100%;
+        height: auto;
     }
     
     .blog {
@@ -175,6 +176,8 @@
     
     .col-3-3 {
         width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
     }
     
     #keep-in-touch button {
@@ -211,12 +214,10 @@
     
     #gallery {
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
-        align-items: center;
-        height: 900px;
-        width: 100%;
-        margin: 0 40px 20px 40px;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: 0 auto;
     }
     /*#gallery .col-2-3 img {
     width: 20%;
@@ -280,4 +281,18 @@
     
     h3 {
         font-size: 1.5em;
+    }
+    /*-------part-5--------*/
+    /*use this class using jQuery if a field is left blank*/
+    
+    .error {
+        border: 2px solid #ED5254 !important;
+    }
+    
+    span {
+        color: #ED5254;
+        opacity: 50%;
+        display: none;
+        font-size: 10px;
+        text-align: left;
     }
