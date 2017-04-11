@@ -4,7 +4,9 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <title>Monument A Life Style Magazine</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="JS/main.js"></script>
+    < <title>Monument A Life Style Magazine</title>
 </head>
 <header>
     <h1>Monument</h1>
@@ -65,23 +67,31 @@
     <section>
         <h2 class="touch">Get In Touch</h2>
         <form class="touch">
-            <input class="col-1-3 name" type="text" placeholder="Name">
-            <input class="col-1-3 email" type="email" placeholder="Email">
-            <input class="col-1-3 subject" type="text" placeholder="Subject">
-            <textarea class="col-3-3" cols="30" rows="10" placeholder="Message"></textarea>
-            <button id="submit" class="col-3-4" type="submit">Submit</button>
+            <div class="col-1-3">
+                <input class="col-3-3 name edited-element" type="text" placeholder="Name">
+                <span>Please enter your full name.</span></div>
+            <div class="col-1-3">
+                <input class="col-3-3 email edited-element" type="email " placeholder="Email ">
+                <span>Please enter your email address.</span></div>
+            <div class="col-1-3">
+                <input class="col-3-3 subject edited-element" type="text" placeholder="Subject">
+                <span>Please enter a subject.</span></div>
+            <div class="col-3-3">
+                <textarea class="col-3-3 edited-element " cols="30 " rows="10 " placeholder="Message "></textarea>
+                <span>Please enter a message.</span></div>
+            <button id="submit " class="col-3-4  submit" type="submit ">Submit</button>
         </form>
     </section>
 </body>
 <footer>
-    <div class="emailsubmit">
-        <input class="col-1-3" type="email" placeholder="Email Address">
-        <button class="button" type="Submit">subscribe</button>
+    <div class="emailsubmit ">
+        <input class="col-1-3 " type="email " placeholder="Email Address ">
+        <button class="button " type="Submit ">subscribe</button>
     </div>
-    <div class="socialmedia">
-        <a href=""><i class="fa fa-facebook-official" aria-hidden="true" ></i></a>
-        <a href=""><i class="fa fa-twitter" aria-hidden="true" ></i></a>
-        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <div class="socialmedia ">
+        <a href=" "><i class="fa fa-facebook-official " aria-hidden="true " ></i></a>
+        <a href=" "><i class="fa fa-twitter " aria-hidden="true " ></i></a>
+        <a href=" "><i class="fa fa-instagram " aria-hidden="true "></i></a>
     </div>
     <p>&copy; Sarah Holden</p>
 </footer>
