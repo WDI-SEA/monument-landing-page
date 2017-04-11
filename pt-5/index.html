@@ -8,6 +8,8 @@
     <title>Monument</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
 </head>
 <div id="wrapper">
     <header>
@@ -75,11 +77,23 @@
             <h2>GET IN TOUCH</h2>
         </div>
         <form id="getForm">
-            <input type="text" class="col-1-3" placeholder="NAME">
-            <input type="text" class="col-1-3" placeholder="EMAIL">
-            <input type="text" class="col-1-3" placeholder="SUBJECT">
-            <textarea rows="5" class="col-3-3" placeholder="COMMENT"></textarea>
-            <input type="submit" class="col-3-3" value="SUBMIT">
+            <div class="col-1-3">
+                <input type="text" placeholder="NAME">
+                <p class="errorMsg">Please enter your full name.</p>
+            </div>
+            <div class="col-1-3">
+                <input type="text" placeholder="EMAIL">
+                <p class="errorMsg">Please enter your e-mail.</p>
+            </div>
+            <div class="col-1-3">
+                <input type="text" placeholder="SUBJECT">
+                <p class="errorMsg">Please enter a subject.</p>
+            </div>
+            <div class="col-3-3">
+                <textarea rows="5" placeholder="COMMENT"></textarea>
+                <p class="errorMsg">Please enter a message.</p>
+                <input type="submit" id="submitButt" value="SUBMIT">
+            </div>
         </form>
     </div>
     <!---footer-->

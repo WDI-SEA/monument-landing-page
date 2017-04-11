@@ -2,7 +2,6 @@
 
 body {
     font-family: "Lato", sans-serif;
-    font-size: 14px;
 }
 
 
@@ -36,10 +35,10 @@ ul {
     justify-content: space-between;
     font-weight: 600;
     text-transform: uppercase;
+    font-size: .8em;
 }
 
 li a {
-    font-size: 3em;
     display: inline;
     color: #849FB0;
     font-weight: 800;
@@ -51,7 +50,6 @@ li a {
 header h1 {
     font-weight: 400;
     color: #fff;
-    font-size: 10em;
     letter-spacing: .8em;
     padding: 4em 0 0 0;
 }
@@ -59,7 +57,6 @@ header h1 {
 header h2 {
     font-weight: 400;
     color: #fff;
-    font-size: 6em;
     letter-spacing: 0.2em;
     padding: 0 0 4em 0;
 }
@@ -95,7 +92,6 @@ header h2 {
     width: 100%;
     font-weight: 400;
     color: #3D4D58;
-    font-size: 6em;
     letter-spacing: 0.2em;
     padding: 0 0 4em 0;
     text-align: center;
@@ -103,37 +99,40 @@ header h2 {
 
 article.backIssue {
     display: inline-block;
-}
-
-.backIssue {
-    width: 32%;
+    /*width: 30%;*/
     text-align: center;
 }
 
+.col-1-3 {
+    width: 30%;
+}
+
+
+/*.backIssue {
+    width: 32%;
+    text-align: center;*/
+
+
+}
 img.backIssue {
     width: 100%;
 }
-
 h3.backIssue {
     width: 100%;
     font-weight: 400;
     color: #3D4D58;
-    font-size: 3em;
     letter-spacing: 0.2em;
     margin: 1em 0 2em 0;
     text-align: center;
 }
-
 p.backIssue {
     color: #3D4D58;
-    font-size: 3em;
     line-height: 3em;
     font-family: "Raleway", sans-serif;
     width: 100%;
     text-align: center;
     margin-bottom: 3em;
 }
-
 a.backIssue {
     color: #3D4D58;
     background-color: white;
@@ -145,49 +144,45 @@ a.backIssue {
     /*  text-align: center;
     margin: 3em auto;*/
 }
-
+img.col-1-3 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 /*About the Mag==========*/
-
 .aboutMag {
     background-color: #CFF2F6;
     width: 100%;
     /*padding: 0em 0 3em 0;*/
+
     text-align: center;
 }
-
 h2.aboutMag {
     font-weight: 400;
     color: #3D4D58;
-    font-size: 6em;
     letter-spacing: 0.2em;
     padding: 3em 0 0em 0;
     text-align: center;
 }
-
 h3.aboutMag {
     width: 100%;
     font-weight: 400;
     color: #3D4D58;
-    font-size: 4em;
     letter-spacing: 0.2em;
     margin: 0 0 1em 0;
     text-align: center;
 }
-
 p.aboutMag {
     color: #3D4D58;
-    font-size: 3em;
     line-height: 2em;
     font-family: "Raleway", sans-serif;
     width: 70%;
     display: inline-block;
     margin: 0 0 .5em 0;
 }
-
 p.aboutMag2 {
     color: #3D4D58;
-    font-size: 3em;
     line-height: 2em;
     font-family: "Raleway", sans-serif;
     width: 70%;
@@ -195,13 +190,10 @@ p.aboutMag2 {
     margin: 0 0 4em 0;
 }
 
-
 /*Issue Twenty===========*/
-
 
 /*==Cannot figure out technique for grid system.
 HELP!!==================*/
-
 .iss20 {
     width: 70%;
     margin: 1em auto;
@@ -211,51 +203,40 @@ HELP!!==================*/
     flex-direction: row;
     text-align: center;
 }
-
 h2.issT {
     width: 100%;
     font-weight: 400;
     color: #3D4D58;
-    font-size: 6em;
     letter-spacing: 0.2em;
     padding: 1em 0 0em 0;
     text-align: center;
     margin: 1em auto 1em;
 }
-
 h3.issT {
     width: 100%;
     font-weight: 400;
     color: #3D4D58;
-    font-size: 4em;
     letter-spacing: 0.2em;
     margin: 0 0 2em 0;
     text-align: center;
 }
-
 article.iss20 {
     width: 30%;
     display: inline-block;
 }
-
 img.iss20 {
     width: 100%;
 }
 
-
 /*GetInTouch=============*/
-
 .getInTouch {
     width: 100%;
     margin: 2em auto 4em;
 }
-
 .getInTouch h2 {
     margin: .5em auto;
-    font-size: 1.5em;
     align-content: center;
 }
-
 #getForm {
     width: 70%;
     margin: 0em auto;
@@ -263,22 +244,19 @@ img.iss20 {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 .getHL {
     width: 100%;
     margin: .5em 0;
     padding: 1em 0;
-    font-size: 2em;
     text-align: center;
 }
-
 .col-1-3 {
     width: 28%;
     margin-bottom: 1em;
     padding: 1em 1em;
-    border: .2em solid #717D85;
+    /*border: .2em solid #717D85;
+*/
 }
-
 .col-3-3 {
     width: 100%;
     background-color: white;
@@ -287,30 +265,22 @@ img.iss20 {
     margin: 1em auto;
 }
 
-
 /*Footer=================*/
-
 footer {
-    /*text-align: center;*/
     background-color: #CDF3F6;
 }
-
 .footSocial nav {
-    font-size: 1.2em;
     padding-top: 1em;
     color: #44545E;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .footSocial nav a {
     color: #44545E;
-    font-size: 3em;
     padding: 0 .5em;
     margin: 2%;
 }
-
 .footForm {
     display: flex;
     margin: 0em 5em 2em;
@@ -318,11 +288,9 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
 .footForm input {
     margin: 1em;
 }
-
 #footEMAIL {
     background-color: #fff;
     padding: 1em 3em;
@@ -330,14 +298,12 @@ footer {
     text-align: center;
     border-style: none;
 }
-
 #footSubscribe {
     background-color: #CDF3F6;
     padding: 1em 2em;
     border: .2em solid #717D85;
     /*border-style: none;*/
 }
-
 .footAuthor {
     height: 4em;
     border-top: solid 0.2em #849fb0;
@@ -346,14 +312,13 @@ footer {
     justify-content: center;
 }
 
-
 /*MediaQuery=======================
 Still cannot get @media to work!!!!!
 ==================================*/
-
 @media (max-width: 560px) {
     #wrapper {
-        background-color: red;
+        /*background-color: red;
+*/
     }
     /*Header=================*/
     /*Main===================*/
@@ -362,12 +327,26 @@ Still cannot get @media to work!!!!!
     /*Issue Twenty===========*/
     /*GetInTouch=============*/
     /*Footer=================*/
+
     .hamburger {
         display: block;
         color: #fff;
         font-size: 2em;
         position: absolute;
-        top: 1.5em;
-        left: .5em;
+        top: 1em;
+        left: 1em;
+    }
+
+    #headerNav {
+        display: none;
+    }
+
+    .col-1-3 {
+        width: 100%;
+    }
+
+    article.iss20 {
+        width: 48%;
+        display: inline-block;
     }
 }
