@@ -8,15 +8,16 @@ $(function() {
         console.log($(".edited-element"));
 
         $(".edited-element").each(function() {
-            console.log(this);
-            console.log(this.value);
-            if (this.value) {
+            // console.log(this);
+            // console.log($(this).val());
+            // console.log($(this).val());
+            if ($(this).val()) {
                 // value is non-blank
                 $(this).removeClass("error");
                 $(this).siblings().hide();
             } else {
                 // value is blank
-                console.log(this.value + " is blank");
+                // console.log($(this).val() + " is blank");
                 $(this).addClass("error");
                 $(this).siblings().fadeIn(1000);
             }
