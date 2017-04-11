@@ -8,7 +8,6 @@
 =================== */
 
 header {
-    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -199,20 +198,30 @@ li a {
 
 .column-2 {
     border: .2em solid black;
-    width: 47.75%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .formblank {
     width: 100%;
     border: .25em solid black;
-    background: transparent;
+}
+
+.name-blank,
+.email-blank {
+    width: 49%;
+}
+
+.big-blank {
+    width: 100%;
 }
 
 .blank {
     text-transform: uppercase;
     padding: .6em;
     font-weight: 800;
-    margin-bottom: 1%;
+    box-sizing: border-box;
+    margin-top: 2%;
 }
 
 #formbutton {
@@ -226,6 +235,7 @@ li a {
     font-weight: 800;
     letter-spacing: .1em;
     width: 100%;
+    margin-top: 2%;
 }
 
 #formbutton:hover {
@@ -347,13 +357,11 @@ footer {
         margin-top: 0;
     }
     .page {
-        max-width: 100%;
         margin-left: 0;
         margin-right: 0;
         padding: 0;
     }
     .archive {
-        max-width: 100%;
         margin: 0;
         justify-content: space-around;
         align-items: center;
@@ -412,6 +420,10 @@ footer {
     .blank {
         margin-bottom: 1%;
     }
+    .name-blank,
+    .email-blank {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 775px) {
@@ -425,7 +437,6 @@ footer {
     .southwest,
     .camping,
     .food {
-        min-width: 750px;
         max-width: 100%;
         margin-bottom: 30px;
     }
@@ -517,4 +528,21 @@ footer {
 .galleryimg:hover {
     opacity: .5;
     transition: 1s ease-in-out;
+}
+
+
+/* ===================
+    COMMENT ERROR
+=================== */
+
+.error {
+    border: 2px solid #ED5254;
+}
+
+.error-message {
+    display: none;
+    color: #ED5254;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 0;
 }
