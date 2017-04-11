@@ -9,6 +9,8 @@
     <!-- <link rel=“stylesheet” href=“https://maxcdn.bootstrapcdn.com/font-awesome-4.7.0/css/font-awesome.min.css“> -->
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -86,11 +88,23 @@
     <div class="commentsubmit">
         <h3>GET IN TOUCH</h3>
         <form id="commentform">
-            <input id="name" class="col-1-3" type="text" name="name" placeholder="NAME">
-            <input id="email" class="col-1-3" type="email" name="email" placeholder="EMAIL">
-            <input id="subject" class="col-1-3" type="text" name="subject" placeholder="SUBJECT">
-            <textarea id="comments" class="col-3-3" name="comments" cols="100" rows="10" placeholder="COMMENTS"></textarea>
-            <input type="submit" class="col-3-3 submitbutton" value="SUBMIT">
+            <div class="col-1-3">
+                <input id="name" class="col-3-3 form-input" type="text" name="name" placeholder="FULL NAME">
+                <p id="nameReject" class="hidden reject">Please enter your full name.</p>
+            </div>
+            <div class="col-1-3">
+                <input id="email" class="col-3-3 form-input" type="email" name="email" placeholder="EMAIL">
+                <p id="emailReject" class="hidden reject">Please enter your email address.</p>
+            </div>
+            <div class="col-1-3">
+                <input id="subject" class="col-3-3 form-input" type="text" name="subject" placeholder="SUBJECT">
+                <p id="subjectReject" class="hidden reject">Please enter a subject.</p>
+            </div>
+            <div class="col-3-3">
+                <textarea id="comments" class="col-3-3 form-input" name="comments" cols="100" rows="10" placeholder="COMMENTS"></textarea>
+                <p id="commentsReject" class="hidden reject">Please enter a message.</p>
+            </div>
+            <input id="submit-button" type="submit" class="col-3-3 submitbutton" value="SUBMIT">
         </form>
     </div>
     <footer>
@@ -98,7 +112,7 @@
         <div class="signup">
             <form>
                 <input id="kitemail" type="email" name="kitemail" placeholder="EMAIL ADDRESS">
-                <input id="submit" class="submitbutton" type="submit" value="KEEP IN TOUCH">
+                <input id="submit" class="submitbutton form" type="submit" value="KEEP IN TOUCH">
             </form>
         </div>
         <p class="copyright "> &copy;2016 Steve Keiser </p>
