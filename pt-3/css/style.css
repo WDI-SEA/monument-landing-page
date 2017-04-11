@@ -1,0 +1,332 @@
+/*Affects Everything*/
+
+body {
+    text-align: center;
+    color: #455;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+/*Header */
+
+header {
+    position: fixed;
+}
+
+.header-image {
+    background-image: url("../starter-code/images/blog_header_bg.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    height: 18.75em;
+    color: #FFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 3.125em;
+}
+
+h1 {
+    letter-spacing: .5em;
+    font-size: 2em;
+}
+
+header nav {
+    position: fixed;
+    background-color: #FFF;
+    width: 100%;
+}
+
+header nav a,
+.hidden {
+    color: #7b98aa;
+    margin: 0 4em;
+}
+
+.hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    padding: 0.3em;
+    display: none;
+}
+
+
+/*All navigation*/
+
+nav li:hover,
+.hidden:hover {
+    background-color: #455;
+}
+
+nav li:hover a,
+.hidden:hover {
+    color: #FFFFFF;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    height: 100%;
+    padding: 0.4em;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Footer*/
+
+footer > p {
+    border-top: solid 1px #40505a;
+    padding-top: 0.625em;
+}
+
+footer li {
+    margin: 0 0.625em;
+}
+
+footer nav a {
+    color: inherit;
+}
+
+footer nav {
+    height: 6.25em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+input {
+    text-align: center;
+    margin: 0 0.625em;
+}
+
+#input-email {
+    border: 0;
+    width: 15em;
+    padding: 0.625em 1.25em;
+}
+
+#submit-email {
+    background-color: #cdf3f6;
+    border: solid 2px #40505a;
+    padding: 0.625em;
+    width: 10em;
+}
+
+#submit-email:hover,
+#submit-contact:hover {
+    background-color: #455;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #cdf3f6;
+    height: 15em;
+}
+
+
+/*Main Content*/
+
+main {
+    margin: 3.125em 0;
+}
+
+.container {
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+}
+
+#blog {
+    margin-bottom: 3em;
+    max-width: 44em;
+    margin: 0;
+}
+
+section {
+    margin-top: 6.25em;
+}
+
+article {
+    border-bottom: 1px dashed #7b98aa;
+}
+
+article img {
+    max-width: 100%;
+}
+
+aside {
+    max-width: 12.5em;
+}
+
+#about img {
+    max-width: 12.5em
+}
+
+#issues .issue {
+    color: #7b98aa;
+    font-size: 0.9em;
+}
+
+#contact {
+    width: 80%;
+    margin: 1.5625em auto;
+}
+
+#contact form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+#contact input,
+textarea {
+    margin: 0.625em 0;
+    box-sizing: border-box;
+    background-color: #FFF;
+    border: 2px solid black;
+    padding: 0.3125em;
+}
+
+.name-email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.name-email input {
+    box-sizing: border-box;
+    width: 49%;
+}
+
+textarea {
+    height: 6.25em;
+}
+
+
+/*I tried putting padding directly on the textarea selector and not using an id to select it, not sure why it didn't work on textarea??*/
+
+#comment {
+    padding: 1em;
+}
+
+
+/*Title Contents*/
+
+h1,
+h2,
+h3,
+nav a,
+input,
+textarea,
+.hidden {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0;
+}
+
+h2,
+h3 {
+    margin: 0.5em 0;
+}
+
+
+/*RESPONSIIVE QUERIES*/
+
+@media (min-width: 561px) and (max-width: 860px) {
+    #blog {
+        max-width: 500px;
+    }
+    header nav a {
+        font-size: 12px;
+        padding: 0px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+    }
+    header nav ul {
+        display: none;
+    }
+    .hidden {
+        display: inline-block;
+        position: absolute;
+        background-color: #FFF;
+        text-align: left;
+        padding: 0.3125em;
+        top: 0px;
+    }
+    h2 {
+        padding-bottom: 1em;
+    }
+    h3 {
+        padding-top: 1em;
+    }
+    .name-email {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .name-email input {
+        width: 100%;
+    }
+    aside {
+        display: none;
+    }
+}

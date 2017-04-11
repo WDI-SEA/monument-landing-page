@@ -1,0 +1,429 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"backgru",
+				"background-image"
+			],
+			[
+				"lorem",
+				"lorem\tHTML - Lorem Ipsum"
+			],
+			[
+				"search",
+				"searchInput"
+			],
+			[
+				"rege",
+				"regex"
+			],
+			[
+				"transition",
+				"transitionend"
+			],
+			[
+				"transla",
+				"translateY()"
+			],
+			[
+				"total",
+				"total"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"inventors",
+				"inventorsBornIn1500s"
+			],
+			[
+				"born",
+				"bornIn1500s"
+			],
+			[
+				"data",
+				"data-sizing"
+			],
+			[
+				"base",
+				"baseChange"
+			],
+			[
+				"sec",
+				"secondhand"
+			],
+			[
+				"seconds",
+				"secondsDegrees"
+			],
+			[
+				"set",
+				"setdDate"
+			],
+			[
+				"transform",
+				"transform"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"ke",
+				"keyCode"
+			],
+			[
+				"reset",
+				"resetTurn"
+			],
+			[
+				"clicked",
+				"clickedCards"
+			],
+			[
+				"D",
+				"0D2C40"
+			],
+			[
+				"cards",
+				"cardsInPlay"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"image",
+				"cardImage"
+			],
+			[
+				"card",
+				"cardID"
+			],
+			[
+				"cardt",
+				"cardThree"
+			],
+			[
+				"backgrou-c",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "val",
+		"selected_items":
+		[
+			[
+				"val",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"val css",
+				"W3C Validators: Validate CSS 3"
+			],
+			[
+				"v",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"valid",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"htmlp",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"color",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"set java",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sara/wdi/projects/monument-landing-page/pt-1/blog.html",
+		"/home/sara/wdi/projects/monument-landing-page/pt-1/font-awesome-4.7.0/css/font-awesome.min.css",
+		"/home/sara/wdi/projects/monument-landing-page/pt-1/starter-code/images/home_header_bg.jpg",
+		"/home/sara/wdi/projects/monument-landing-page/pt-1/screenshots/blog_pt_1.png",
+		"/home/sara/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/home/sara/wdi/projects/monument-landing-page/pt-1/starter-code/images/about.jpg",
+		"/home/sara/wdi/projects/monument-landing-page/pt-1/starter-code/images/blog_1.jpg",
+		"/home/sara/wdi/projects/monument-landing-page/pt-1/screenshots/blog_pt_1_challenge.png",
+		"/home/sara/wdi/projects/monument-landing-page/pt-1/starter-code/images/article_2.jpg",
+		"/home/sara/wdi/projects/monument-landing-page/pt-1/starter-code/images/article_1.jpg",
+		"/home/sara/wdi/exercises/W1/mockup-html-css/solution/css/main.css",
+		"/home/sara/wdi/exercises/W1/github-practice-2/index.html",
+		"/home/sara/wdi/exercises/W1/git-github-lab/starter-code/app/style.css",
+		"/home/sara/wdi/exercises/W1/git-github-lab/starter-code/app/index.html",
+		"/home/sara/wdi/lessons/W1/notes/03_28_17-notes",
+		"/home/sara/wdi/lessons/W1/notes/index.html",
+		"/home/sara/wdi/lessons/W1/notes/css/style.css",
+		"/home/sara/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/home/sara/wdi/lessons/WDI-13-dailies/w1/d1-text-editors/bad.js",
+		"/home/sara/wdi/lessons/WDI-13-dailies/w1/d1-text-editors/excercises.txt",
+		"/home/sara/wdi/lessons/WDI-13-dailies/w1/d1-text-editors/Increment/increment.py",
+		"/home/sara/wdi/lessons/WDI-13-dailies/w1/d1-text-editors/README.md",
+		"/home/sara/wdi/lessons/WDI-13-dailies/w1/d2-semantic-html/belair_biography/index.html",
+		"/home/sara/wdi/lessons/WDI-13-dailies/w1/d2-semantic-html/belair_biography/bball.jpg",
+		"/home/sara/wdi/lessons/WDI-13-dailies/w1/d1-text-editors/sublime-shortcuts.md",
+		"/home/sara/wdi/sandbox/W1/notes/03_25_17-notes",
+		"/home/sara/ga/wdi/DeathStar/Alderaan/voice3.txt",
+		"/home/sara/ga/wdi/DeathStar/Alderaan/voice2.txt",
+		"/home/sara/ga/wdi/DeathStar/Alderaan/voice1.txt",
+		"/home/sara/Web Dev/WDI-SEA-13/W1/notes/03_25_17 notes",
+		"/home/sara/Web Dev/WDI fundamentals/wdi-fundamentals-memorygame/memory_game/index.html",
+		"/home/sara/Web Dev/WDI fundamentals/wdi-fundamentals-memorygame/memory_game/js/main.js",
+		"/home/sara/Desktop/how to do HW notes",
+		"/home/sara/Documents/Web Dev/fundamentals/wdi-fundamentals-memorygame/memory_game/js/main.js",
+		"/home/sara/.zshrc",
+		"/home/sara/Documents/Web Dev/fundamentals/wdi-fundamentals-memorygame/memory_game/css/style.css",
+		"/home/sara/Documents/Web Dev/fundamentals/wdi-fundamentals-memorygame/memory_game/index.html",
+		"/home/sara/Documents/Web Dev/JavaScript30-master/06 - Type Ahead/index-SK.html",
+		"/home/sara/Documents/Web Dev/JavaScript30-master/05 - Flex Panel Gallery/index-SK.html",
+		"/home/sara/Documents/Web Dev/JavaScript30-master/02 - JS and CSS Clock/index-START.html",
+		"/home/sara/Documents/Web Dev/JavaScript30-master/04 - Array Cardio Day 1/index-SK.html",
+		"/home/sara/Documents/Web Dev/JavaScript30-master/03 - CSS Variables/index-START.html",
+		"/home/sara/Documents/Web Dev/JavaScript30-master/02 - JS and CSS Clock/main.js",
+		"/home/sara/Documents/Web Dev/JavaScript30-master/01 - JavaScript Drum Kit/main.js",
+		"/home/sara/Documents/Web Dev/JavaScript30-master/01 - JavaScript Drum Kit/style.css",
+		"/home/sara/Documents/Web Dev/JavaScript30-master/01 - JavaScript Drum Kit/index-START.html",
+		"/home/sara/fundamentals/wdi-fundamentals-memorygame/memory_game/index.html",
+		"/home/sara/fundamentals/wdi-fundamentals-memorygame/memory_game/css/style.css",
+		"/home/sara/fundamentals/wdi-fundamentals-memorygame/memory_game/js/main.js",
+		"/home/sara/fundamentals/wdi-fundamentals-memorygame/memory_game/pseudocode",
+		"/home/sara/fundamentals/wdi-fundamentals-memorygame/memory_game/style.css",
+		"/home/sara/Documents/Web Dev/reset_MasterCopy.css",
+		"/home/sara/fundamentals/wdi-fundamentals-memorygame/memory_game/main.css",
+		"/home/sara/fundamentals/memory_game/index.html",
+		"/home/sara/Desktop/test.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"faceb",
+			"section",
+			"ul",
+			"\n",
+			"Thomas",
+			"\n",
+			"by",
+			" by ",
+			"by",
+			"by ",
+			"Edgar",
+			"by Edgar",
+			"by ",
+			"by",
+			",",
+			"counter",
+			"arr2",
+			"arr",
+			"modifyTheArray",
+			"orange",
+			"ORANGE",
+			"orange",
+			"help me",
+			"banana"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"exercises",
+				"w1/d1-text-editors/excercises.txt"
+			],
+			[
+				"bad",
+				"w1/d1-text-editors/bad.js"
+			],
+			[
+				"sub",
+				"w1/d1-text-editors/sublime-shortcuts.md"
+			],
+			[
+				"",
+				"~/Desktop/test.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

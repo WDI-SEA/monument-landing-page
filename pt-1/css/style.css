@@ -1,0 +1,103 @@
+body {
+    text-align: center;
+    color: #455;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+header nav a {
+    color: #7b98aa;
+    margin: 0 4em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+}
+
+h1,
+h2,
+h3,
+nav a {
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 0;
+}
+
+.header-image {
+    background-image: url("../starter-code/images/blog_header_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    color: #FFF;
+    position: relative;
+    width: 100%;
+}
+
+h1 {
+    letter-spacing: .5em;
+    font-size: 3em;
+    position: absolute;
+    top: 1.5em;
+    width: 100%;
+}
+
+h2,
+h3 {
+    margin: 0.5em 0;
+}
+
+section {
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.blog {
+    padding-bottom: 3em;
+}
+
+article img {
+    max-width: 700px;
+}
+
+.issues .issue {
+    color: #7b98aa;
+}
+
+footer p {
+    border-top: solid 3px #40505a;
+    padding-top: 10px;
+}
+
+footer ul {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    padding: 0;
+}
+
+footer li {
+    margin: 0 10px;
+}
+
+footer nav a {
+    color: inherit;
+}
+
+footer nav {
+    height: 125px;
+    position: relative;
+}
+
+footer {
+    background-color: #cdf3f6;
+    height: 200px;
+}
