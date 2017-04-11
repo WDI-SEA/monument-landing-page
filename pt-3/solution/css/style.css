@@ -1,0 +1,161 @@
+                                        /*@media (max-width: 600px) {
+    flex-wrap: wrap;
+}
+*/
+                                        
+                                        body {
+                                            color: #495862;
+                                        }
+                                        
+                                        .titleimage {
+                                            display: flex;
+                                            position: relative;
+                                            justify-content: center;
+                                            padding-top: 10em;
+                                            background-image: url(../images/blog_header_bg.jpg);
+                                            background-size: cover;
+                                            height: 15em;
+                                            color: #FFFFFF;
+                                        }
+                                        
+                                        h1 {
+                                            position: absolute;
+                                            left: 40%;
+                                        }
+                                        
+                                        body {
+                                            font-family: 'LATO', sans-serif;
+                                            font-weight: 400;
+                                            margin-left: 5em;
+                                            margin-right: 5em;
+                                        }
+                                        
+                                        .bodywrap {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-content: space-between;
+                                        }
+                                        
+                                        h1,
+                                        h2,
+                                        .sitenav {
+                                            font-family: 'Raleway', sans-serif;
+                                            font-weight: 600;
+                                        }
+                                        
+                                        footer {
+                                            background-color: #cdf3f6;
+                                            text-align: center;
+                                            border-top: solid .01em black;
+                                        }
+                                        
+                                        a {
+                                            text-decoration: none;
+                                            color: #8ea7b6;
+                                        }
+                                        
+                                        .sitenav {
+                                            background-color: #FFFFFF;
+                                            text-align: center;
+                                            font-size: 75%;
+                                            position: fixed;
+                                            width: 100%;
+                                        }
+                                        
+                                        article {
+                                            border-bottom: .01em dotted black;
+                                            margin-right: 1em;
+                                        }
+                                        
+                                        img,
+                                        p {
+                                            max-width: 100%;
+                                        }
+                                        
+                                        .copyright,
+                                        .smedia {
+                                            font-size: 75%;
+                                            padding-bottom: 1em;
+                                            margin: auto;
+                                            display: inline-block;
+                                        }
+                                        
+                                        aside {
+                                            padding-right: 0;
+                                        }
+                                        
+                                        #entries {
+                                            order: 1;
+                                        }
+                                        
+                                        #about {
+                                            order: 2;
+                                        }
+                                        
+                                        #pastissues {
+                                            order: 3;
+                                        }
+                                        
+                                        .commentsubmit {
+                                            text-align: center;
+                                        }
+                                        
+                                        .row-1 {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-content: center;
+                                        }
+                                        
+                                        .row-1 input {
+                                            width: 30em;
+                                        }
+                                        
+                                        .row-2 {
+                                            display: inline-flex;
+                                            flex-direction: column;
+                                            align-content: center;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        .flexwrap {
+                                            display: flex;
+                                            display: inline-flex;
+                                            flex-direction: column;
+                                            align-content: center;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        textarea {
+                                            resize: none;
+                                        }
+                                        
+                                        @media (max-width: 560px) {
+                                            .bodywrap {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: space-between;
+                                                align-content: space-between;
+                                            }
+                                            .row-1 {
+                                                display: flex;
+                                                flex-direction: column;
+                                                justify-content: space-between;
+                                                align-content: center;
+                                            }
+                                            .row-1 input {
+                                                width: 30em;
+                                            }
+                                            .row-2 {
+                                                display: inline-flex;
+                                                flex-direction: column;
+                                                align-content: center;
+                                                justify-content: space-between;
+                                            }
+                                            .flexwrap {
+                                                display: flex;
+                                                display: inline-flex;
+                                                flex-direction: column;
+                                                align-content: center;
+                                                justify-content: space-between;
+                                            }
+                                        }
